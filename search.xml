@@ -1,49 +1,64 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>模电学习笔记1</title>
-    <url>/2024/07/12/%E6%A8%A1%E7%94%B5%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B01/</url>
-    <content><![CDATA[<h1 id="本征半导体和杂质半导体"><a href="#本征半导体和杂质半导体" class="headerlink" title="本征半导体和杂质半导体"></a>本征半导体和杂质半导体</h1><h2 id="半导体"><a href="#半导体" class="headerlink" title="半导体"></a>半导体</h2><p>顾名思义，半导体就是指导电能力处于绝缘体和导体之间的物质，如硅，锗等。</p>
-<h2 id="本征半导体"><a href="#本征半导体" class="headerlink" title="本征半导体"></a>本征半导体</h2><h3 id="本征半导体的定义"><a href="#本征半导体的定义" class="headerlink" title="本征半导体的定义"></a>本征半导体的定义</h3><p>本征半导体就是纯净的半导体，具有晶体结构。一般是四价元素，彼此靠共价键链接。<br>在绝对零度时，其中的价电子被束缚住，没有导电性能。<br>温度升高到常温下（300K）时，一些价电子得以脱离束缚，成为自由电子，相应的共价键上留下一个空位，称为空穴</p>
-<h3 id="本征半导体的载流子"><a href="#本征半导体的载流子" class="headerlink" title="本征半导体的载流子"></a>本征半导体的载流子</h3><p>由定义可以发现，本征半导体的载流子分为两种：<br>1.自由电子(free electron)<br>2.空穴(mobile hole)</p>
-<h3 id="本征半导体的载流子浓度"><a href="#本征半导体的载流子浓度" class="headerlink" title="本征半导体的载流子浓度"></a>本征半导体的载流子浓度</h3><p>公式：</p>
-<blockquote>
-<p>$n_i&#x3D;p_i&#x3D;K_1T^{3&#x2F;2}e^{-\frac{E_G}{2kT}}$</p>
-</blockquote>
-<p>其中：</p>
-<blockquote>
-<p>$n_i:\text{自由电子的浓度}$    $p_i:\text{空穴的浓度}$<br>$K_1:\text{系数（与材料有关）}$<br>$T:\text{绝对温度}$<br>$k:\text{玻尔兹曼常数}$<br>$E_G:\text{禁带宽度（价电子挣脱共价键所需能量）}$</p>
-</blockquote>
-<h3 id="本征半导体的导电能力"><a href="#本征半导体的导电能力" class="headerlink" title="本征半导体的导电能力"></a>本征半导体的导电能力</h3><p>有极限！半导体的导电能力有极限，如何改进？</p>
-<h2 id="杂质半导体"><a href="#杂质半导体" class="headerlink" title="杂质半导体"></a>杂质半导体</h2><h3 id="杂质半导体的定义"><a href="#杂质半导体的定义" class="headerlink" title="杂质半导体的定义"></a>杂质半导体的定义</h3><p>注意到，半导体具有扩散特性，可将少量杂质元素掺入其中<br>如正四价元素中掺入五价（或者三价）元素，将少部分正四价元素取代<br>如正五价元素掺入之后，会出现很多自由电子<br>导电能力提高上百万倍！</p>
-<h3 id="N型半导体"><a href="#N型半导体" class="headerlink" title="N型半导体"></a>N型半导体</h3><p>形成：掺入P（磷元素）<br>可出现两种载流子：自由电子（多数），空穴（少数）<br>因而自由电子是多子（多数载流子），空穴是少子（少数载流子）<br>由于带负电的自由电子占多数，其被称为 <em><strong>N（negative）型半导体</strong></em><br><strong>需要注意，每多一个自由电子，就会出现一个磷离子，因而整体依然呈现电中性</strong><br>温度敏感：由于温度影响的是本征激发，所以其对整体导电能力影响小，但是对少数载流子的影响依然大</p>
-<h3 id="P型半导体"><a href="#P型半导体" class="headerlink" title="P型半导体"></a>P型半导体</h3><h4 id="P有个洞！是空穴！所以多数载流子是空穴！其他同N型半导体"><a href="#P有个洞！是空穴！所以多数载流子是空穴！其他同N型半导体" class="headerlink" title="P有个洞！是空穴！所以多数载流子是空穴！其他同N型半导体"></a>P有个洞！是空穴！所以多数载流子是空穴！其他同N型半导体</h4><h1 id="PN结"><a href="#PN结" class="headerlink" title="PN结"></a>PN结</h1><h2 id="PN结的定义"><a href="#PN结的定义" class="headerlink" title="PN结的定义"></a>PN结的定义</h2><p>顾名思义，PN结合在一起，就是PN结（在P，N型半导体的交界面形成），PN结具有单向导电性（可用于制作二极管）</p>
-<h2 id="PN结的形成"><a href="#PN结的形成" class="headerlink" title="PN结的形成"></a>PN结的形成</h2><blockquote>
-<p><img src="/images/PNJunction1.jpg" alt="图片" title="PN结示意图（1）"></p>
-</blockquote>
-<p>在PN半导体的交界面处，由于两种半导体中的载流子浓度差距很大，发生<strong>扩散运动</strong>，P区的空穴向N区扩散，N区的自由电子向P区扩散，如 <em>(a)<em>所示<br>在这其中P区出现负离子区，N区出现正离子区，这两个区域合起来叫做<strong>空间电荷区</strong>（或者<strong>耗尽层</strong>），形成电场。扩散运动强的时候（载流子浓度强），空间电荷区宽，其内部的电场强度加强。电场强度方向由N区指向P区，阻止了扩散运动的进行，在这之中P区的自由电子向N区流动，N区的空穴向P区流动（注意都是少子），这种运动就称为**漂移运动</em></em><br>这其中，当参与扩散运动的多子和参与漂移运动的少子数量达到动态平衡的时候，PN结形成。</p>
-<h3 id="对称-不对称PN结"><a href="#对称-不对称PN结" class="headerlink" title="对称&#x2F;不对称PN结"></a>对称&#x2F;不对称PN结</h3><p>P区与N区杂质浓度相等时，负离子区和正离子区的宽度也相等，称为<strong>对称结</strong><br>浓度不相等时，浓度 <em>高</em>一侧的离子区宽度 <em>低</em>于浓度低一侧的离子区宽度，称为<strong>不对称PN结</strong></p>
-<blockquote>
-<p>理解：浓度高一侧的载流子扩散运动较强，将浓度低一侧的离子区拉宽</p>
-</blockquote>
-<p>两种PN结的外部特性相同</p>
-<h2 id="PN结的单向导电性"><a href="#PN结的单向导电性" class="headerlink" title="PN结的单向导电性"></a>PN结的单向导电性</h2><h3 id="正向"><a href="#正向" class="headerlink" title="正向"></a>正向</h3><blockquote>
-<p><img src="/images/PNJunction2.jpg" alt="图片" title="PN结示意图（2）"></p>
-</blockquote>
-<p>P接正极，N接负极时，称为PN结外加<strong>正向电压</strong>，外电场削弱内电场，使得扩散运动加剧，漂移运动减弱。显然，在外接正向电压达到一个临界数值之前，其电流不会有很大变化，但是一旦达到临界，电流就会急剧增大，形成<strong>正向电流</strong>，PN结<strong>导通</strong>，此时PN结的压降只有0.几V，因此需要串联限流电阻防止元器件损坏</p>
-<blockquote>
-<p>郑益慧老师：电源和二极管总要烧一个</p>
-</blockquote>
-<h3 id="反向"><a href="#反向" class="headerlink" title="反向"></a>反向</h3><blockquote>
-<p><img src="/images/PNJunction3.jpg" alt="图片" title="PN结示意图（3）"></p>
-</blockquote>
-<p>加<strong>反向电压</strong>时，内电场被加强，空间电荷区（耗尽层）加宽，加剧了漂移运动，抑制了扩散运动，形成<strong>反向电流</strong>，由于漂移运动是少子在进行的，其数目极少，导致反向电流极小，一般可以忽略，认为其在加反向电压时处于<strong>截止</strong>状态。</p>
-<h2 id="PN结的电流方程"><a href="#PN结的电流方程" class="headerlink" title="PN结的电流方程"></a>PN结的电流方程</h2><p>PN结所加端电压$u$与其电流$i$的关系为</p>
-<blockquote>
-<p>$i&#x3D;I_s(e^{\frac{u}{U_T}}-1)$</p>
-</blockquote>
-<p>常温下（$T&#x3D;300K$）时，$U_T\approx26mV$<br>称$U_T$为温度的电压当量</p>
+    <title>Analysis:How to Form a Paper</title>
+    <url>/2024/07/19/Analysis-How-to-Form-a-Paper/</url>
+    <content><![CDATA[<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a><strong>Abstract</strong></h2><p>$\quad$ Recent environment encourage students to create their own works or even present paper in the undergraduate period.But for most of the first and second year student,they find themselves hard to acquire the basic and needed skills and knowledge to structurize a formal paper with great proficiency.In order to prevent students from being tortured and to prevent peer viewers and mentors from relentlessly modifying and correcting paper,this work is proposed.The aim of this paper is to propose the conventional formula of how to c</p>
 ]]></content>
+      <tags>
+        <tag>learning</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Continuous RV distributions</title>
+    <url>/2024/07/25/Continuous-RV-distributions/</url>
+    <content><![CDATA[<h2 id="Preface"><a href="#Preface" class="headerlink" title="Preface"></a>Preface</h2><p>In recent days of browsing the Internet for relevant learning materials,I find it good to have a better understanding of possibilities by looking at some basic concepts!Therefore,I come up with this chapter:<em>Continuous RV distributions</em>,where RV stands for random variables.</p>
+<h2 id="Continuous-Random-Variables"><a href="#Continuous-Random-Variables" class="headerlink" title="Continuous Random Variables"></a>Continuous Random Variables</h2><p>Every continuous random variable has a probability density function (PDF), instead of a probability mass function (PMF),where the limit in calculus takes place,showing in a given section,the possibility of a given event to happen is 0.</p>
+<h3 id="PDF-and-CDF"><a href="#PDF-and-CDF" class="headerlink" title="PDF and CDF"></a>PDF and CDF</h3><p>PDF:<br>define $f(x)$ as the possibility density function of $x$ so that:</p>
+<blockquote>
+<p>$\int_{-\infty}^{\infty}f(x)dx&#x3D;1$<br>$\mathbb P(x\approx q)&#x3D;\mathbb P(q-\frac{\epsilon}{2}\leq X\leq q+\frac{\epsilon}{2})\approx \epsilon f_x(q)$</p>
+</blockquote>
+<p>CDF:<br>define $F(x)$ as the cumulative distribution function so that:</p>
+<blockquote>
+<p>$F_x(w)&#x3D;\mathbb P(x\leq w)&#x3D;\int _{-\infty}^{w}{f(x)dx}$</p>
+</blockquote>
+<p>Noticably,PDF is the derivative of CDF.</p>
+<h3 id="Expectation-and-Variance"><a href="#Expectation-and-Variance" class="headerlink" title="Expectation and Variance"></a>Expectation and Variance</h3><p>The expectation of a continuous RV can be counted as follows:</p>
+<blockquote>
+<p>$\mathbb E(x)&#x3D;\int_{-\infty}^{\infty}{tf_x(t)dt}$</p>
+</blockquote>
+<p>The variance of a RV can be counted as follows:</p>
+<blockquote>
+<p>$Var(x)&#x3D;\mathbb E(x^2)-\mathbb E^2(x)$</p>
+</blockquote>
+<p>or also:</p>
+<blockquote>
+<p>$Var(x)&#x3D;\int_{-\infty}^{\infty}{(t-\mathbb E(x))f_x(t)dt}$</p>
+</blockquote>
+<h3 id="Exponential-Family"><a href="#Exponential-Family" class="headerlink" title="Exponential Family"></a>Exponential Family</h3><p>$X\sim Exp(\lambda)$,if X follows the pdf:</p>
+<blockquote>
+<p>$f_X(x)&#x3D;\begin{cases}\lambda e^{-\lambda x},x\geq 0\\0,otherwise\end{cases}$</p>
+</blockquote>
+<p>Calculating this,we know:</p>
+<blockquote>
+<p>$\mathbb E(X)&#x3D;\frac{1}{\lambda},Var(X)&#x3D;\frac{1}{\lambda^2}$</p>
+</blockquote>
+<p>The cdf of it is:</p>
+<blockquote>
+<p>$F_X(x)&#x3D;\begin{cases}1-e^{-\lambda x},x\geq 0\\0,otherwise\end{cases}$</p>
+</blockquote>
+<h3 id="The-Gamma-Gamma-RV"><a href="#The-Gamma-Gamma-RV" class="headerlink" title="The Gamma($\Gamma$) RV"></a>The Gamma($\Gamma$) RV</h3><p>$X\sim Gamma(r,\lambda)$ if and only if $X$ has the following pdf:</p>
+<blockquote>
+<p>$f_X(x)&#x3D;\begin{cases}\frac{\lambda^r}{(r-1)!}{x^{r-1}e^{-\lambda x}},x&gt;0\\0,otherwise\end{cases}$</p>
+</blockquote>
+<p>where:</p>
+<blockquote>
+<p>$\mathbb E(X)&#x3D;\frac{r}{\lambda},Var(X)&#x3D;\frac{r}{\lambda^2}$</p>
+</blockquote>
+]]></content>
+      <tags>
+        <tag>learning</tag>
+      </tags>
   </entry>
   <entry>
     <title>Formula Practice(1)</title>
@@ -85,6 +100,242 @@
 <p>$x(t)&#x3D;\sum_{-\infty}^{\infty}{x(nT_s)Sa[\omega_m(t-nT_s)]}&#x3D;\sum_{n&#x3D;-\infty}^{\infty}{x(nT_s)\frac{sin\omega_m(t-nT_s)}{\omega_m(t-nT_s)}}$</p>
 </blockquote>
 ]]></content>
+  </entry>
+  <entry>
+    <title>First Glance at Covariance Matrix</title>
+    <url>/2024/07/18/First-Glance-at-Covariance-Matrix/</url>
+    <content><![CDATA[<h2 id="Definition"><a href="#Definition" class="headerlink" title="Definition"></a>Definition</h2><p>Let $X$ be a $N\times 1$ random column vector.The <em>covariance matrix</em> of $X$ is denoted as $Var[X]$ ,and defined as</p>
+<blockquote>
+<p>$Var[X]&#x3D;E[(X-E(X))(X-E[X])^T]$</p>
+</blockquote>
+<p>where $E(\cdot)$ denoted the expectation of $\cdot$.<br>In the equation above,we can transform the dot product form into square form,in other words:</p>
+<blockquote>
+<p>$E[(X-E(X))(X-E[X])^T]&#x3D;E[(X-E(X))^2]$</p>
+</blockquote>
+<h2 id="Example"><a href="#Example" class="headerlink" title="Example"></a>Example</h2><p>Suppose $x$ is a $2\times 1$ vector,with $X_1,X_2$ as its components.<br>Let</p>
+<blockquote>
+<p>$Var[X_1]&#x3D;2$<br>$Var[X_2]&#x3D;4$<br>$Cov[X_1,X_2]&#x3D;1$</p>
+</blockquote>
+<p>Noticably,</p>
+<blockquote>
+<p>$Var[X]&#x3D;\begin{bmatrix}<br>Var[X_1] &amp;Cov[X_1,X_2]\\<br>Cov[X_2,X_1] &amp;Var[X_2]<br>\end{bmatrix}\<br>&#x3D;\begin{bmatrix}<br>2 &amp;1\\<br>1 &amp;4<br>\end{bmatrix}<br>$</p>
+</blockquote>
+<p>The covariance matrix can also be counted by using the equivalent formula below:</p>
+<blockquote>
+<p>$Var[X]&#x3D;E[XX^T]-E[X]E[X]^T$</p>
+</blockquote>
+<p>Also,we have such corollaries below:</p>
+<blockquote>
+<p>$Var[a+X]&#x3D;Var[X]$</p>
+</blockquote>
+<blockquote>
+<p>$Var[bX]&#x3D;bVar[X]b^T$</p>
+</blockquote>
+<blockquote>
+<p>$Var[X]^T&#x3D;Var[X]$</p>
+</blockquote>
+<h2 id="Covariance-between-Linear-Transformations"><a href="#Covariance-between-Linear-Transformations" class="headerlink" title="Covariance between Linear Transformations"></a>Covariance between Linear Transformations</h2><p>Let $a$ and $b$ be two constant $1\times K$ vectors and $X$ a $K\times 1$ random vector.The covariance between two linear transformations $aX$ and $bX$ is</p>
+<blockquote>
+<p>$Cov[aX,bX]&#x3D;aVar[X]b^T$</p>
+</blockquote>
+<h2 id="Cross-Covariance"><a href="#Cross-Covariance" class="headerlink" title="Cross-Covariance"></a>Cross-Covariance</h2><p>For two random vectors,what will happen?<br>Let $X$ be a $K\times 1$ vector and $Y$ be a $L\times 1$ vector(random).The covariance matrix between $X,Y$ is denoted by $Cov[X,Y]$</p>
+<blockquote>
+<p>$Cov[X,Y]&#x3D;E[(X-E(X)(Y-E(Y))^T]$</p>
+</blockquote>
+<p>resulting in a $K\times L$ matrix.<br>Apparently,$Cov[X,Y]\neq Cov[Y,X]$,but $Cov[X,Y]&#x3D; (Cov[Y,X])^T$<br>What’s worth noting is that the Covariance Matrix bears good <em>linearity</em>!</p>
+<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference:"></a>Reference:</h2><p><em>Taboga, Marco (2021). “Covariance matrix”, Lectures on probability theory and mathematical statistics. Kindle Direct Publishing. Online appendix. <a href="https://www.statlect.com/fundamentals-of-probability/covariance-matrix">https://www.statlect.com/fundamentals-of-probability/covariance-matrix</a>.</em></p>
+]]></content>
+      <tags>
+        <tag>learning</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>MMSE and Relative Methods</title>
+    <url>/2024/07/23/MMSE-and-Relative-Methods/</url>
+    <content><![CDATA[<h2 id="MMSE-Estimation"><a href="#MMSE-Estimation" class="headerlink" title="MMSE Estimation"></a>MMSE Estimation</h2><h3 id="Estimation-with-PDF"><a href="#Estimation-with-PDF" class="headerlink" title="Estimation with PDF"></a>Estimation with PDF</h3><p>For a random variable $x:\Omega \to \mathbb R^n$ with its PDF $p^x$<br>We can <em>predict</em> or <em>estimate</em> the outcome:</p>
+<blockquote>
+<p>Given <em>cost function</em> $c$: $\mathbb<br>R^n\times\mathbb R^n\to R$<br>Pick <em>estimate</em> $\hat x$ to minimize $\mathbf Ex(x,\hat x)$</p>
+</blockquote>
+<h4 id="The-Cost-Function"><a href="#The-Cost-Function" class="headerlink" title="The Cost Function"></a>The Cost Function</h4><blockquote>
+<p>$c(x,\hat x)&#x3D;||x-\hat x||^2$</p>
+</blockquote>
+<h4 id="The-Mean-Square-Error"><a href="#The-Mean-Square-Error" class="headerlink" title="The Mean Square Error"></a>The Mean Square Error</h4><p>The <em>mean square error</em>(MSE) is:</p>
+<blockquote>
+<p>$\mathbf E(||x-\hat x||^2)&#x3D;\int ||x-\hat x||^2p^x(x)dx$</p>
+</blockquote>
+<p>The PDF in this equation can be interpreted as a kind of special weight function!</p>
+<h4 id="The-Minimum-Mean-Square-Error"><a href="#The-Minimum-Mean-Square-Error" class="headerlink" title="The Minimum Mean-Square Error"></a>The Minimum Mean-Square Error</h4><p>The <em>minimum mean-square error</em> is defined as:</p>
+<blockquote>
+<p>$\displaystyle \min_{\hat x}\mathbf  E(||x-\hat x||^2)$</p>
+</blockquote>
+<p>We can derive from that formula:</p>
+<blockquote>
+<p>$\displaystyle \min_{\hat x}\mathbf  E(||x-\hat x||^2)\\&#x3D;\displaystyle \min_{\hat x}\mathbf  E((x-\hat x)^T(x-\hat x))\\&#x3D;\mathbf E||x||^2-2\hat x^T\mathbf Ex+\hat x^T \hat x$</p>
+</blockquote>
+<p>Take the derivative of it,we get:</p>
+<blockquote>
+<p>$\hat x_{mmse}&#x3D;\mathbf Ex$</p>
+</blockquote>
+<p>The mean square error of it is:</p>
+<blockquote>
+<p>$\mathbf E(||x-\hat x_{mmse}||^2)&#x3D;\mathbf{trace cov}(x)$</p>
+</blockquote>
+<h4 id="The-Mean-Variance-Decomposition"><a href="#The-Mean-Variance-Decomposition" class="headerlink" title="The Mean-Variance Decomposition"></a>The Mean-Variance Decomposition</h4><p>The MVD can be interpreted as:</p>
+<blockquote>
+<p>$\mathbf E(||z||^2)&#x3D;\mathbf E(||z-\mathbf Ez||^2)+||\mathbf Ez||^2$</p>
+</blockquote>
+<p>Applying this to the $z&#x3D;x-\hat x$</p>
+<blockquote>
+<p>$\mathbf E(||x-\hat x||^2)&#x3D;\mathbf E(||x-\mathbf Ex||^2)+||\hat x-\mathbf Ex||^2$</p>
+</blockquote>
+<p>The first term is the <em>variance</em> of $x$<br>The second term is the <em>bias</em> of $x$</p>
+<h3 id="The-Estimation-Problem"><a href="#The-Estimation-Problem" class="headerlink" title="The Estimation Problem"></a>The Estimation Problem</h3><p>$x,y$ are random variables,with joint PDF $p(x,y)$<br>We have already measured the variable $y&#x3D;y_{meas}$<br>Now we want to find the MMSE of $x$ given $y&#x3D;y_{meas}$<br>Note that the <em>estimator</em> stands for a function $\phi:\mathbb R^m\to \mathbb R^n$<br>We define $\hat x_{est}&#x3D;\phi(y_{meas})$<br>How can we find the function $\phi$ to minimize the cost function?</p>
+<blockquote>
+<p>$J&#x3D;\mathbf E(||\phi(y)-x||^2)$</p>
+</blockquote>
+<p>We define the <em>marginal PDF</em> of $y$ as:</p>
+<blockquote>
+<p>$p^y(y)&#x3D;\int p(x,y)dx$ </p>
+<blockquote>
+<p>Wow!We can easily notice that this is a continuous form of the marginal function!(See in the factor graph section!).What a surprise!</p>
+</blockquote>
+</blockquote>
+<p>And the <em>conditioned pdf</em> of $y$:</p>
+<blockquote>
+<p>$p^{|y}(y)&#x3D;\frac{p(x,y)}{p^y(y)}$</p>
+</blockquote>
+<h3 id="The-MMSE-Estimator"><a href="#The-MMSE-Estimator" class="headerlink" title="The MMSE Estimator"></a>The MMSE Estimator</h3><p>The <em>mean-square-error conditioned on</em> $y$ is $e_{cond}(y)$,given by:</p>
+<blockquote>
+<p>$e_{cond}(y)&#x3D;\int||\phi(y)-x||^2p^{|y}(x,y)dx$</p>
+</blockquote>
+<p>Then the mean square error $J$ is given by:</p>
+<blockquote>
+<p>$J&#x3D;\mathbf E(e_{cond}(y))$</p>
+</blockquote>
+<p>Because:</p>
+<blockquote>
+<p>$J&#x3D;\int\int ||\phi(y)-x||^2p(x,y)dxdy\\&#x3D;\int p^y(y)e_{cond}(y)dy$</p>
+</blockquote>
+<h3 id="The-affine-transformation-in-signal-processing"><a href="#The-affine-transformation-in-signal-processing" class="headerlink" title="The affine transformation(in signal processing)"></a>The affine transformation(in signal processing)</h3><p>For a signal $\mathbf y$ received and a certain <em>channel matrix</em> $\mathbf H$,we have:</p>
+<blockquote>
+<p>$\mathbf {y&#x3D;Hs+n}$</p>
+</blockquote>
+<p>where we suppose $\mathbf{y\in R^{N_r},s\in R^{N_t}},H\in R^{N_r\times N_t}$<br>The expectation of $\mathbf y$ is:</p>
+<blockquote>
+<p>$\mathbf {Ey&#x3D;E(Hs+n)&#x3D;HE(\mathbf s)}&#x3D;H\mu$</p>
+</blockquote>
+<p>The covariance is:</p>
+<blockquote>
+<p>$\mathbf {\Sigma_y &#x3D;E(y-\hat y)(y-\hat y)^T&#x3D;EH(s- \hat s)(s-\hat s)^TH^T}\\$<br>$&#x3D;\mathbf{H\Sigma_sH^T+\Sigma_n}$</p>
+</blockquote>
+<p>which denotes the <em>signal covariance</em> and <em>noise covariance</em></p>
+]]></content>
+      <tags>
+        <tag>learning</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Gaussian Distribution</title>
+    <url>/2024/07/22/Gaussian-Distribution/</url>
+    <content><![CDATA[<h2 id="Why-Gaussian-Distribution–Central-Limit-Theorem"><a href="#Why-Gaussian-Distribution–Central-Limit-Theorem" class="headerlink" title="Why Gaussian Distribution–Central Limit Theorem"></a>Why Gaussian Distribution–Central Limit Theorem</h2><h3 id="Population-and-Sample"><a href="#Population-and-Sample" class="headerlink" title="Population and Sample"></a>Population and Sample</h3><p>The <em>population</em> refers to the whole set of individuals that we want to study,and the <em>sample</em> refers to the subset that we choose from the population to study(in respect for the fact that we can’t choose the whole population to study in a row)</p>
+<h3 id="Central-Limit-Theorem"><a href="#Central-Limit-Theorem" class="headerlink" title="Central Limit Theorem"></a>Central Limit Theorem</h3><p>The Central Limit Theorem (CLT) is a fundamental theorem in probability theory and statistics that states that the distribution of the sum (or average) of a large number of independent, identically distributed variables will be approximately normal, regardless of the underlying distribution.</p>
+<p>More specifically, if we take a sample of $n$ observations from any population, calculate the sample’s mean, and repeat that process a large number of times, the distribution of those sample means will be normally distributed. This distribution will have the same mean as the population from which the samples were drawn, and its standard deviation (also known as the standard error) will be equal to the standard deviation of the population divided by the square root of the sample size.</p>
+<h2 id="Single-Variable-Univariate-Gaussian-Distribution-Normal-Distribution"><a href="#Single-Variable-Univariate-Gaussian-Distribution-Normal-Distribution" class="headerlink" title="Single Variable(Univariate) Gaussian Distribution(Normal Distribution)"></a>Single Variable(Univariate) Gaussian Distribution(Normal Distribution)</h2><h3 id="Definition"><a href="#Definition" class="headerlink" title="Definition"></a>Definition</h3><p>For a random variable $x$,if its <em>probability density function</em> is:</p>
+<blockquote>
+<p>$f(x)&#x3D;\frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2}$</p>
+</blockquote>
+<p>where $\mu$ and $\sigma$ are the mean and variance of $x$.Then we can say the variable follows the normal distribution.<br>If the variable $x$ follows the Gaussian distribution,we can denote this kind of distribution as:</p>
+<blockquote>
+<p>$x\sim N(\mu,\sigma^2)$</p>
+</blockquote>
+<h2 id="Multivariate-Normal-Distribution"><a href="#Multivariate-Normal-Distribution" class="headerlink" title="Multivariate Normal Distribution"></a>Multivariate Normal Distribution</h2><p>For a mutivariable $n\times 1$ vector $X$ distributed following the multivariate distribution,with population mean vector $\mathbf{\mu}$ and a variance-covariance matrix $\Sigma$,the PDF(possibbility density function) can be described as:</p>
+<blockquote>
+<p>$\phi(X)&#x3D;\frac{|\Sigma|^{\frac{-1}{2}}}{(2\pi)^{\frac{n}{2}}}\exp{\frac{-1}{2}(X-\mathbf \mu)^T\Sigma^{-1}(X-\mathbf\mu) }$</p>
+</blockquote>
+<p>If $n&#x3D;2$ ,then we get the <em>bivariate normal distribution</em>,resulting in a bell-shaped curve in three dimensions.</p>
+<h3 id="Mahalanobis-Distance"><a href="#Mahalanobis-Distance" class="headerlink" title="Mahalanobis Distance"></a>Mahalanobis Distance</h3><p>Noticably,the mahalanobis distance is a distance!In the univariate case,if it is greater than zero,then the variable is larger than mean,vice versa.<br>In the multivariate case,since the covariance matrix $\Sigma$ is always positive definite,the distance is always greater than 0!</p>
+<h4 id="In-Univariate-Normal-Distribution"><a href="#In-Univariate-Normal-Distribution" class="headerlink" title="In Univariate Normal Distribution"></a>In Univariate Normal Distribution</h4><p>This distance can be measured as:</p>
+<blockquote>
+<p>$d&#x3D;\frac{x-\mu}{\sigma}$</p>
+</blockquote>
+<h4 id="In-Multivariate-Normal-Distribution"><a href="#In-Multivariate-Normal-Distribution" class="headerlink" title="In Multivariate Normal Distribution"></a>In Multivariate Normal Distribution</h4><p>Also,this distance can be measured as:</p>
+<blockquote>
+<p>$d&#x3D;\sqrt{(X-\mu)^T\Sigma^{-1}(X-\mu)}$</p>
+</blockquote>
+<h3 id="Integral-Property"><a href="#Integral-Property" class="headerlink" title="Integral Property"></a>Integral Property</h3><p>For univariate normal distribution:</p>
+<blockquote>
+<p>$\frac{1}{\sqrt{2\pi}\sigma}\int_{-\infty}^{\infty}{\exp{\frac{-1}{2\sigma^2}(x-\mu)^2}}&#x3D;1$</p>
+</blockquote>
+<p>For multivariate normal distribution:</p>
+<blockquote>
+<p>$\frac{1}{2\pi^{\frac{n}{2}}|\Sigma|^\frac{1}{2}}\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}…\int_{-\infty}^{\infty}\exp{-\frac{1}{2}(x-\mu)^T\Sigma^{-1}(x-\mu)dx_1dx_2…dx_n}&#x3D;1$</p>
+</blockquote>
+<h2 id="Diagonal-Covariance-Matrix-Product-Gaussian"><a href="#Diagonal-Covariance-Matrix-Product-Gaussian" class="headerlink" title="Diagonal Covariance Matrix-&gt;Product Gaussian"></a>Diagonal Covariance Matrix-&gt;Product Gaussian</h2><p>Let’s imagine a diagonal covariance matrix $\Sigma$,OK,cool!This means the variables are independent!<br>Let’s take a $2\times 2$ covariance matrix for example:<br>In this column,we define $X&#x3D;(x_1,x_2)$,the variance matrix $\Sigma &#x3D; [\begin{matrix}<br>\sigma_1^2 &amp; 0 \\<br>0 &amp; \sigma_2^2<br>\end{matrix} ]$<br>and the mean vector $\mu&#x3D;(\mu_1,\mu_2)$.<br>WE can easily compute the inverse matrix $\Sigma^{-1}&#x3D;[\begin{matrix}<br>\frac{1}{\sigma_1^2} &amp; 0 \\<br>0 &amp; \frac{1}{\sigma_2^2}<br>\end{matrix} ]$<br>In this case,we can find the PDF as:</p>
+<blockquote>
+<p>$p(x;\mu,\Sigma)&#x3D;\frac{1}{2\pi\sigma_1\sigma_2}\exp{(-\frac{1}{2}(x-\mu)^T\Sigma^{-1}(x-\mu))}$</p>
+</blockquote>
+<p>Further computing it,we get:</p>
+<blockquote>
+<p>$p(x;\mu,\Sigma)&#x3D;\frac{1}{\sqrt{2\pi}\sigma_1}\exp{(-\frac{1}{2\sigma_1^2}(x_1-\mu_1)^2)}\frac{1}{\sqrt{2\pi}\sigma_2}\exp{(-\frac{1}{2\sigma_2^2}(x_2-\mu_2)^2)}$</p>
+</blockquote>
+<p>Further corollary shows for a n-dimensional variable vector $x$,we have:<br>$p(x;\mu,\Sigma)&#x3D;\prod_{i&#x3D;1}^{n}\frac{1}{\sqrt{2\pi}\sigma_{i}}\exp{(-\frac{1}{2\sigma_i^2}(x_i-\mu_i)^2)}$</p>
+<h2 id="Ellipse-Where-Does-This-Thing-Come-From"><a href="#Ellipse-Where-Does-This-Thing-Come-From" class="headerlink" title="Ellipse:Where Does This Thing Come From??"></a>Ellipse:Where Does This Thing Come From??</h2><h3 id="Isocontour-Hooray-Geography"><a href="#Isocontour-Hooray-Geography" class="headerlink" title="Isocontour(Hooray Geography!)"></a>Isocontour(Hooray Geography!)</h3><p>Let us take the same definition above and consider this:</p>
+<blockquote>
+<p>Let $c&#x3D;\frac{1}{2\pi\sigma_1\sigma_2}\exp(-\frac{1}{2}(\frac{x_1-\mu_1}{\sigma_1})^2-\frac{1}{2}(\frac{x_2-\mu_2}{\sigma_2})^2)$<br>$2\pi c\sigma_1\sigma_2&#x3D;\exp(-\frac{1}{2}(\frac{x_1-\mu_1}{\sigma_1})^2-\frac{1}{2}(\frac{x_2-\mu_2}{\sigma_2})^2)$<br>$\log(2\pi\sigma_1\sigma_2)&#x3D;-\frac{1}{2}(\frac{x_1-\mu_1}{\sigma_1})^2-\frac{1}{2}(\frac{x_2-\mu_2}{\sigma_2})^2$<br>$1&#x3D;\frac{(x_1-\mu_1)^2}{2\sigma_1^2\log(\frac{1}{2\pi c\sigma_1\sigma_2})}+\frac{(x_2-\mu_2)^2}{2\sigma_2^2\log(\frac{1}{2\pi c\sigma_1\sigma_2})}$</p>
+</blockquote>
+<p>Define:</p>
+<blockquote>
+<p>$r_1&#x3D;\sqrt{2\sigma_1^2\log(\frac{1}{2\pi c\sigma_1\sigma_2})}$<br>$r_2&#x3D;\sqrt{2\sigma_2^2\log(\frac{1}{2\pi c\sigma_1\sigma_2})}$</p>
+</blockquote>
+<p>An ellipse occurs!</p>
+<h3 id="Non-diagonal-Higher-Dimensional-–-Still-Symmetric"><a href="#Non-diagonal-Higher-Dimensional-–-Still-Symmetric" class="headerlink" title="Non-diagonal&#x2F;Higher Dimensional – Still Symmetric"></a>Non-diagonal&#x2F;Higher Dimensional – Still Symmetric</h3><p>For a two dimensional covariance matrix,this turns to a non-axis-aligned ellipse.<br>For a higher dimenstional one,say in the $n$-dimensional case,we get a high dimensional ellipsoids in $\mathbf R^n$</p>
+<h2 id="Linear-Transformation-This-Is-a-Matrix"><a href="#Linear-Transformation-This-Is-a-Matrix" class="headerlink" title="Linear Transformation: This Is a Matrix!"></a>Linear Transformation: This Is a Matrix!</h2><p>Here is a theorem saying:</p>
+<blockquote>
+<p>Let $X\sim \mathcal N(\mu,\Sigma)$ for some $\mu\in \mathbf R^n$ and $\Sigma\in \mathbf S_{++}^n$.Then there exists a matrix $B\in R^{n\times n}$ such that if $Z&#x3D;B^{-1}(X-\mu)$,then $Z\sim \mathcal N(0,I)$</p>
+</blockquote>
+]]></content>
+      <tags>
+        <tag>learning</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Reading:Pattern Recognition and Machine Learning</title>
+    <url>/2024/07/17/Reading-Pattern-Recognition-and-Machine-Learning/</url>
+    <content><![CDATA[<h2 id="Chapter-8-Graphical-Models"><a href="#Chapter-8-Graphical-Models" class="headerlink" title="Chapter 8:Graphical Models"></a>Chapter 8:Graphical Models</h2><p>In graphical models,there are two parts:</p>
+<blockquote>
+<p>nodes or vertices<br>links or edges or arcs</p>
+</blockquote>
+<p>The graphical models mainly divide into two parts</p>
+<blockquote>
+<p><em>Bayesian networks</em> or <em>directed graphical models</em> </p>
+</blockquote>
+<blockquote>
+<p><em>Markov  random fields</em> or <em>undirected graphical models</em></p>
+</blockquote>
+<blockquote>
+<p>“Directed graphs are useful for expressing causal relationships between<br> random variables, whereas undirected graphs are better suited to expressing soft con<br>straints between random variables. For the purposes of solving inference problems,<br> it is often convenient to convert both directed and undirected graphs into a different<br> representation called a factor graph.”</p>
+</blockquote>
+<h3 id="Bayesian-Networks"><a href="#Bayesian-Networks" class="headerlink" title="Bayesian Networks"></a>Bayesian Networks</h3><p><em>Multiplication Theorem of Probabilities</em><br>This can be denoted as:</p>
+<blockquote>
+<p>$p(a,b)&#x3D;p(a|b)p(b)$</p>
+</blockquote>
+<p>which originates from the <em>conditional probability</em></p>
+<blockquote>
+<p>$p(A|B)&#x3D;\frac{p(AB)}{p(B)}$</p>
+</blockquote>
+<p>For this relationship $P(a,b,c)$,we can take it separately as:</p>
+<blockquote>
+<p>$P(a,b,c)&#x3D;P(c|a,b)P(a,b)&#x3D;P(c|a,b)P(b|a)P(a)$</p>
+</blockquote>
+<p>This can be represented by a graph:<br><img src="/images/graph81.png" alt="图片" title="Graph Denoting a,b,c"><br>Now let’s consider a more complicated scenario,there are N numbers in a column vector, polynomial coefficients $\mathbf{w}$.The input data $\mathbf{x}&#x3D;(x_1,…,x_n)^T$ and the observed data$\mathbf{t}&#x3D;(t_1,…,t_n)^T$,with a Gaussian noises variance $\sigma^2$ and a hyperparameter $\alpha$ representing the precision of the Gaussian prior over $\mathbf{w}$.<br>The joint distribution is given by the product of the prior $p(\mathbf{w})$ and $N$ conditional distributions $p(t_n|\mathbf{w})$ for $n&#x3D;1,2,…,N$.</p>
+<blockquote>
+<p>$p(\mathbf{t,w})&#x3D;p(\mathbf{w})\displaystyle \prod_{n&#x3D;1}^{N}{p(t_n|\mathbf{w})}$</p>
+</blockquote>
+<h2 id="Appendix"><a href="#Appendix" class="headerlink" title="Appendix"></a>Appendix</h2><p>PDF: probability density function</p>
+]]></content>
+      <tags>
+        <tag>learning</tag>
+      </tags>
   </entry>
   <entry>
     <title>Reading Paper:factor graphs and the sum product algorithm</title>
@@ -132,6 +383,101 @@
       <tags>
         <tag>Reading-Paper</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Reading Paper:A Low-Complexity Massive MIMO Detection Based on Approximate Expectation Propagation(AEP or EPA in this paper)</title>
+    <url>/2024/07/17/Reading-Paper-A-Low-Complexity-Massive-MIMO-Detection-Based-on-Approximate-Expectation-Propagation-AEP-or-EPA-in-this-paper/</url>
+    <content><![CDATA[<h2 id="Before-Beginning"><a href="#Before-Beginning" class="headerlink" title="Before Beginning"></a>Before Beginning</h2><p>Now that we have some basic understanding of MIMO and relative mathematical knowledge,we will attempt to get the hang of this paper(whose knowledge still present a challenge to me)!</p>
+<h3 id="A-Bit-of-Zero-Forcing-ZF"><a href="#A-Bit-of-Zero-Forcing-ZF" class="headerlink" title="A Bit of Zero Forcing(ZF)"></a>A Bit of Zero Forcing(ZF)</h3><p>HFor a receiving antenna,if the channel matrix is $\mathbf{H}$,the sent message $\mathbf{s}$ and the received modulated message is $\mathbf{r}$ and denote the Gaussian noise as $\mathbf{n}$,then we denote the received message as:</p>
+<blockquote>
+<p>$\mathbf{r}&#x3D;\mathbf{H\cdot s}+\mathbf{n}$</p>
+</blockquote>
+<p>The receiver don’t know about the sent messsage $\mathbf{s}$ so it decides to retrieve it from the received message $\mathbf{r}$.<br>Using MMSE,we can try to minimize$||\mathbf{r}-\mathbf{H\cdot s}||^2$<br>Obviously,we can get:</p>
+<blockquote>
+<p>$\hat{\mathbf{s}} &#x3D; (\mathbf{H}^\mathbf{*})^{-1}\mathbf{H} \mathbf{r}$</p>
+</blockquote>
+<p>where the term before $\mathbf{r}$ is the pseudo-inverse of a matrix,$\mathbf{H^*}$ denotes the conjugate of $\mathbf{H}$.<br>The retrieved message,compared to the original $\mathbf{s}$,is:</p>
+<blockquote>
+<p>$\mathbf{\hat s}&#x3D;\mathbf{s}+(\mathbf{n_m})$</p>
+</blockquote>
+<p>where $\mathbf{n_m}$ denotes the modified noise.<br>To eliminate the impact of possible influence of the modified noise,we add in a regularization factor $\delta \mathbf{I}$,so that:</p>
+<blockquote>
+<p>$$ \hat{\mathbf{s}} &#x3D; (\mathbf{H}^\mathbf{*} + \delta \mathbf{I})^{-1} \mathbf{H} \mathbf{r} $$</p>
+</blockquote>
+<p>where:<br>if $\delta \to 0$,the channel matrix takes over so the $\hat {\mathbf s}$ will be just as the equation<br>if $\delta \to \infty$,the $\mathbf{I}$ takses over and in such cases,$\hat {\mathbf{s}}&#x3D;\mathbf{H^*r}$<br>Completed!</p>
+<h3 id="Neumann-Series"><a href="#Neumann-Series" class="headerlink" title="Neumann Series"></a>Neumann Series</h3><h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><h3 id="Existing-Methods"><a href="#Existing-Methods" class="headerlink" title="Existing Methods"></a>Existing Methods</h3><p>The loading factor $\alpha$ is defined as $\alpha&#x3D;M&#x2F;N$,with M transmitting and N receiving signals.<br>Existing MMSE and ZF methods exibit near -optimal performances when $\alpha &lt;&lt;1$,while carrying low spectral efficiency.<br>When $\alpha \approx 1$ the spectral efficiency can be attained while losing performance for linear detectors.<br>Later methods like BP and GTA still present not satisfying performance.</p>
+<h3 id="Preliminary"><a href="#Preliminary" class="headerlink" title="Preliminary"></a>Preliminary</h3><h4 id="MIMO-System-Model"><a href="#MIMO-System-Model" class="headerlink" title="MIMO System Model"></a>MIMO System Model</h4><p>In this paper,we use real-value system:</p>
+<blockquote>
+<p>$\mathbf{y}&#x3D;\mathbf{Hx}+\mathbf{n}$</p>
+</blockquote>
+<p>where $\mathbf y\in \mathbb R^{2N}$,$\mathbf{H}\in \mathbb R^{2N\times 2M}$,$\mathbf{x}\in \Theta^{2M}$.$\mathbf n \sim \mathcal N(0,\sigma_n^2\mathbf I_{2N})$.<br>Assume a uniform prior distribution in this paper,meaning no tendency of a certain symbol.Expressed as $f(\mathbf x)\propto\prod_{i&#x3D;1}^{2M}\mathbb I_{x_i\in \Theta}$,where $\mathbb I_{x_i\in \Theta}$ is the indicator duncition of the constraints of the value of $x_i\in \Theta$<br>If $x_i\in \Theta$,the function&#x3D;1,else the function&#x3D;0.<br>The posterior distribution of $\mathbf x$ has the following representation:<br>$p(\mathbf x|\mathbf y)\propto p(\mathbf y|\mathbf x)f(\mathbf x)\propto \mathcal N(\mathbf y :\mathbf{Hx},\sigma^2_n\mathbf I_{2N})\prod_{i&#x3D;1}^{2M}{\mathbb I_{x_i\in \Theta}}$</p>
+<h3 id="EP-MIMO-Detectors"><a href="#EP-MIMO-Detectors" class="headerlink" title="EP  MIMO Detectors"></a>EP  MIMO Detectors</h3><p>EP detector(EPD) enables a Gaussian approximation to be constructed for the posterior distribution of the transmitted symbols based on moment matching.<br>EP requires the explicit calculation of full matrix inversion,resulting in $\mathcal O(M^3)$ computation complexity.<br>The EP-NSA method exhibits great performance with $\alpha&lt;&lt;1$ but suffers performance degradation for larger $\alpha$.<br>The EP-SU method still costs around $\mathcal O(M^3)$.<br>The above methods involve circumventing <strong>matrix inversion</strong>!<br>Therefore,an EPA method is propopsed.Recovering EP performance for$\alpha&lt;1$and approaches EP for $\alpha \geq 1$.</p>
+<h3 id="Outline"><a href="#Outline" class="headerlink" title="Outline"></a>Outline</h3><p>The remainder of this paper is structured as below. The exact EP approach for massive MIMO detection is introduced in Section II. In Section III, detailed derivation, description and discussion of the proposed algorithm EPA are presented. Section IV shows an alternative derivation of EPA from the viewpoint of EC.Numericalsimulation results of the proposed algorithm and analysis of the computational costs are provided in Section V.Section VI concludes the paper.</p>
+<h2 id="Simulation-Analysis"><a href="#Simulation-Analysis" class="headerlink" title="Simulation Analysis"></a>Simulation Analysis</h2><p>Consider i.i.d.(independent and identically distributed)Rayleigh-fading channels with AWGN. </p>
+<h2 id="Appendix"><a href="#Appendix" class="headerlink" title="Appendix"></a>Appendix</h2><p>ZF: zero forcing<br>CHEMP: channel-hardening exploiting message passing<br>GTA: Gaussian tree approximation<br>EP-NSA: EP with Neumann series approximation<br>EP-SU: EP-successive updating<br>EC: expectation consistency<br>i.i.d:independent and identically distributed<br>AWGN: additive white Gaussian noise</p>
+]]></content>
+      <tags>
+        <tag>Reading-Paper</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Variance and Covariance</title>
+    <url>/2024/07/22/Variance-and-Covariance/</url>
+    <content><![CDATA[<h2 id="Variance"><a href="#Variance" class="headerlink" title="Variance"></a>Variance</h2><p>The <em>variance</em> of a random variable $X$ can be defined as:</p>
+<blockquote>
+<p>If $\mathbb E(X)&#x3D;\mu$</p>
+</blockquote>
+<blockquote>
+<p>$var(X)&#x3D;\mathbb E((x-\mu)^2)$</p>
+</blockquote>
+<p>For its <em>standard deviation</em>,soometimes denotes as $sd(X)$,is defined as</p>
+<blockquote>
+<p>$sd(X)&#x3D;\sqrt{var(X)}$</p>
+</blockquote>
+<p>The variance has the following properties:</p>
+<blockquote>
+<p>$var(X+C)&#x3D;var(X)$<br>$var(bX)&#x3D;b^2var(X)$</p>
+</blockquote>
+<p>Similarly,in the covariance matrix chapter,the <em>covariance matrix</em> has near-the-same properties.</p>
+<h3 id="The-Tchebychev-inequality"><a href="#The-Tchebychev-inequality" class="headerlink" title="The Tchebychev inequality"></a>The Tchebychev inequality</h3><blockquote>
+<p>$\mathbb P{(|X-\mu|)&gt;\epsilon}\leq \frac{var(X)}{\epsilon^2}$</p>
+</blockquote>
+<p>where $\mu$ is the expectation of $X$,and $\epsilon&gt;0$<br>The variance can be sometimes canculated in another way:</p>
+<blockquote>
+<p>$var(X)&#x3D;\mathbb E(X^2)-\mathbb E(X)^2$</p>
+</blockquote>
+<h2 id="Covariance"><a href="#Covariance" class="headerlink" title="Covariance"></a>Covariance</h2><p>The <em>covariance</em> of two random variables $X$ and $Y$ is defined as:</p>
+<blockquote>
+<p>$cov(X,Y)&#x3D;\mathbb E{(X-\mathbb E(X))(Y-\mathbb E(Y))}$</p>
+</blockquote>
+<p>for a more complicated expression with $a,b,c,d$ as constants and $U,V,X,Y$ as random variables,we denote:</p>
+<blockquote>
+<p>$cov(aU+bV,cX+dY)&#x3D;accov(U,X)+bccov(V,X)+adcov(U,Y)+bdcov(V,Y)$</p>
+</blockquote>
+<h2 id="Correlation"><a href="#Correlation" class="headerlink" title="Correlation"></a>Correlation</h2><p>The <em>correlation</em> between two variables $Y$ and $Z$ can be denoted as:</p>
+<blockquote>
+<p>corr(Y,Z)&#x3D;\frac{cov(Y,Z)}{\sqrt{var(Y)var(Z)}}</p>
+</blockquote>
+<h2 id="Standardized-Variables"><a href="#Standardized-Variables" class="headerlink" title="Standardized Variables"></a>Standardized Variables</h2><p>To standardize between different variables,we need to find a way:<em>standardized variables</em>.For two variables $Y$ and $Z$,with their mean and variance $\mu _Y$ $\sigma^2_Y$ $\mu _Z$ $\sigma^2_Z$.We standardize each with the following:</p>
+<blockquote>
+<p>$Y’&#x3D;\frac{Y-\mu_Y}{\sigma_Y}$<br>$Z’&#x3D;\frac{Z-\mu_Z}{\sigma_Z}$</p>
+</blockquote>
+<p>In this way,the mean of $Y’,Z’$ is 0 and the variance of them is 1,and</p>
+<blockquote>
+<p>$corr(Y,Z)&#x3D;cov(Y’,Z’)&#x3D;\mathbb E(Y’Z’)$</p>
+</blockquote>
+]]></content>
+      <tags>
+        <tag>learning</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Rotation Matrix with MATLAB Code</title>
+    <url>/2024/10/09/code%E2%80%9D/</url>
+    <content><![CDATA[<h2 id="What-we-are-up-to-do-here"><a href="#What-we-are-up-to-do-here" class="headerlink" title="What we are up to do here"></a>What we are up to do here</h2><p><strong>In this blog,we will visualize how rotation matrix works</strong><br>Code first:</p>
+<figure class="highlight plaintext"><figcaption><span>[Code to demonstrate rotation]</span></figcaption><table><tr><td class="code"><pre><span class="line">lb=-pi;</span><br><span class="line">ub=pi;</span><br><span class="line">theta=lb+(ub-lb)*rand(1);</span><br><span class="line">x=[1,1];</span><br><span class="line">%figure;</span><br><span class="line">%quiver(0,0,x(1),x(2));</span><br><span class="line">R=[cos(theta),sin(theta);sin(-theta),cos(theta)];</span><br><span class="line">x_trans=R*x&#x27;;</span><br><span class="line">disp((theta*360)/(2*pi));</span><br><span class="line">figure;</span><br><span class="line">quiver(0,0,x_trans(1),x_trans(2));</span><br><span class="line">title(&#x27;transformed angle:&#x27;,(theta*360)/(2*pi));</span><br></pre></td></tr></table></figure>
+<p>With the code,we can plot figures of rotation,as follows:<br><em><strong>Demonstrate original vector</strong></em><br><img src="/images/OriginalVec.jpg" alt="图片" title="Original Vector"><br><em><strong>Demonstrate rotated vector</strong></em><br><img src="/images/RotatedVec.jpg" alt="图片" title="Original Vector"><br>By setting the rotation angle $\theta$ between $[-\pi,\pi]$,we can see in the example above,the vector is rotated anti-clockwise with the angle demonstrated.</p>
+]]></content>
   </entry>
   <entry>
     <title>Reading Paper:Belief-selective Propagation Detection for MIMO Systems</title>
@@ -227,6 +573,63 @@ connected FG model [23], in part to the approximations such as GAI. Second, the 
       </tags>
   </entry>
   <entry>
+    <title>FirstArticle</title>
+    <url>/2024/07/09/Unused/Article/</url>
+    <content><![CDATA[<h2 id="这是一个简单的测试文章"><a href="#这是一个简单的测试文章" class="headerlink" title="这是一个简单的测试文章"></a>这是一个简单的测试文章</h2><blockquote>
+<p><em>祈求在路上没任何的阻碍，令愉快旅程变悲哀</em><br><strong>–杨千嬅</strong></p>
+</blockquote>
+<h3 id="这是一个小标题-小标题呀小标题"><a href="#这是一个小标题-小标题呀小标题" class="headerlink" title="这是一个小标题 小标题呀小标题"></a>这是一个小标题 小标题呀小标题</h3><p>这是一个公式，能不能运行捏？</p>
+<blockquote>
+<p>$\sum_{n&#x3D;1}^{\infty}log_{2}(n)$</p>
+</blockquote>
+]]></content>
+  </entry>
+  <entry>
+    <title>模电学习笔记1</title>
+    <url>/2024/07/12/%E6%A8%A1%E7%94%B5%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B01/</url>
+    <content><![CDATA[<h1 id="本征半导体和杂质半导体"><a href="#本征半导体和杂质半导体" class="headerlink" title="本征半导体和杂质半导体"></a>本征半导体和杂质半导体</h1><h2 id="半导体"><a href="#半导体" class="headerlink" title="半导体"></a>半导体</h2><p>顾名思义，半导体就是指导电能力处于绝缘体和导体之间的物质，如硅，锗等。</p>
+<h2 id="本征半导体"><a href="#本征半导体" class="headerlink" title="本征半导体"></a>本征半导体</h2><h3 id="本征半导体的定义"><a href="#本征半导体的定义" class="headerlink" title="本征半导体的定义"></a>本征半导体的定义</h3><p>本征半导体就是纯净的半导体，具有晶体结构。一般是四价元素，彼此靠共价键链接。<br>在绝对零度时，其中的价电子被束缚住，没有导电性能。<br>温度升高到常温下（300K）时，一些价电子得以脱离束缚，成为自由电子，相应的共价键上留下一个空位，称为空穴</p>
+<h3 id="本征半导体的载流子"><a href="#本征半导体的载流子" class="headerlink" title="本征半导体的载流子"></a>本征半导体的载流子</h3><p>由定义可以发现，本征半导体的载流子分为两种：<br>1.自由电子(free electron)<br>2.空穴(mobile hole)</p>
+<h3 id="本征半导体的载流子浓度"><a href="#本征半导体的载流子浓度" class="headerlink" title="本征半导体的载流子浓度"></a>本征半导体的载流子浓度</h3><p>公式：</p>
+<blockquote>
+<p>$n_i&#x3D;p_i&#x3D;K_1T^{3&#x2F;2}e^{-\frac{E_G}{2kT}}$</p>
+</blockquote>
+<p>其中：</p>
+<blockquote>
+<p>$n_i:\text{自由电子的浓度}$    $p_i:\text{空穴的浓度}$<br>$K_1:\text{系数（与材料有关）}$<br>$T:\text{绝对温度}$<br>$k:\text{玻尔兹曼常数}$<br>$E_G:\text{禁带宽度（价电子挣脱共价键所需能量）}$</p>
+</blockquote>
+<h3 id="本征半导体的导电能力"><a href="#本征半导体的导电能力" class="headerlink" title="本征半导体的导电能力"></a>本征半导体的导电能力</h3><p>有极限！半导体的导电能力有极限，如何改进？</p>
+<h2 id="杂质半导体"><a href="#杂质半导体" class="headerlink" title="杂质半导体"></a>杂质半导体</h2><h3 id="杂质半导体的定义"><a href="#杂质半导体的定义" class="headerlink" title="杂质半导体的定义"></a>杂质半导体的定义</h3><p>注意到，半导体具有扩散特性，可将少量杂质元素掺入其中<br>如正四价元素中掺入五价（或者三价）元素，将少部分正四价元素取代<br>如正五价元素掺入之后，会出现很多自由电子<br>导电能力提高上百万倍！</p>
+<h3 id="N型半导体"><a href="#N型半导体" class="headerlink" title="N型半导体"></a>N型半导体</h3><p>形成：掺入P（磷元素）<br>可出现两种载流子：自由电子（多数），空穴（少数）<br>因而自由电子是多子（多数载流子），空穴是少子（少数载流子）<br>由于带负电的自由电子占多数，其被称为 <em><strong>N（negative）型半导体</strong></em><br><strong>需要注意，每多一个自由电子，就会出现一个磷离子，因而整体依然呈现电中性</strong><br>温度敏感：由于温度影响的是本征激发，所以其对整体导电能力影响小，但是对少数载流子的影响依然大</p>
+<h3 id="P型半导体"><a href="#P型半导体" class="headerlink" title="P型半导体"></a>P型半导体</h3><h4 id="P有个洞！是空穴！所以多数载流子是空穴！其他同N型半导体"><a href="#P有个洞！是空穴！所以多数载流子是空穴！其他同N型半导体" class="headerlink" title="P有个洞！是空穴！所以多数载流子是空穴！其他同N型半导体"></a>P有个洞！是空穴！所以多数载流子是空穴！其他同N型半导体</h4><h1 id="PN结"><a href="#PN结" class="headerlink" title="PN结"></a>PN结</h1><h2 id="PN结的定义"><a href="#PN结的定义" class="headerlink" title="PN结的定义"></a>PN结的定义</h2><p>顾名思义，PN结合在一起，就是PN结（在P，N型半导体的交界面形成），PN结具有单向导电性（可用于制作二极管）</p>
+<h2 id="PN结的形成"><a href="#PN结的形成" class="headerlink" title="PN结的形成"></a>PN结的形成</h2><blockquote>
+<p><img src="/images/PNJunction1.jpg" alt="图片" title="PN结示意图（1）"></p>
+</blockquote>
+<p>在PN半导体的交界面处，由于两种半导体中的载流子浓度差距很大，发生<strong>扩散运动</strong>，P区的空穴向N区扩散，N区的自由电子向P区扩散，如 <em>(a)<em>所示<br>在这其中P区出现负离子区，N区出现正离子区，这两个区域合起来叫做<strong>空间电荷区</strong>（或者<strong>耗尽层</strong>），形成电场。扩散运动强的时候（载流子浓度强），空间电荷区宽，其内部的电场强度加强。电场强度方向由N区指向P区，阻止了扩散运动的进行，在这之中P区的自由电子向N区流动，N区的空穴向P区流动（注意都是少子），这种运动就称为**漂移运动</em></em><br>这其中，当参与扩散运动的多子和参与漂移运动的少子数量达到动态平衡的时候，PN结形成。</p>
+<h3 id="对称-不对称PN结"><a href="#对称-不对称PN结" class="headerlink" title="对称&#x2F;不对称PN结"></a>对称&#x2F;不对称PN结</h3><p>P区与N区杂质浓度相等时，负离子区和正离子区的宽度也相等，称为<strong>对称结</strong><br>浓度不相等时，浓度 <em>高</em>一侧的离子区宽度 <em>低</em>于浓度低一侧的离子区宽度，称为<strong>不对称PN结</strong></p>
+<blockquote>
+<p>理解：浓度高一侧的载流子扩散运动较强，将浓度低一侧的离子区拉宽</p>
+</blockquote>
+<p>两种PN结的外部特性相同</p>
+<h2 id="PN结的单向导电性"><a href="#PN结的单向导电性" class="headerlink" title="PN结的单向导电性"></a>PN结的单向导电性</h2><h3 id="正向"><a href="#正向" class="headerlink" title="正向"></a>正向</h3><blockquote>
+<p><img src="/images/PNJunction2.jpg" alt="图片" title="PN结示意图（2）"></p>
+</blockquote>
+<p>P接正极，N接负极时，称为PN结外加<strong>正向电压</strong>，外电场削弱内电场，使得扩散运动加剧，漂移运动减弱。显然，在外接正向电压达到一个临界数值之前，其电流不会有很大变化，但是一旦达到临界，电流就会急剧增大，形成<strong>正向电流</strong>，PN结<strong>导通</strong>，此时PN结的压降只有0.几V，因此需要串联限流电阻防止元器件损坏</p>
+<blockquote>
+<p>郑益慧老师：电源和二极管总要烧一个</p>
+</blockquote>
+<h3 id="反向"><a href="#反向" class="headerlink" title="反向"></a>反向</h3><blockquote>
+<p><img src="/images/PNJunction3.jpg" alt="图片" title="PN结示意图（3）"></p>
+</blockquote>
+<p>加<strong>反向电压</strong>时，内电场被加强，空间电荷区（耗尽层）加宽，加剧了漂移运动，抑制了扩散运动，形成<strong>反向电流</strong>，由于漂移运动是少子在进行的，其数目极少，导致反向电流极小，一般可以忽略，认为其在加反向电压时处于<strong>截止</strong>状态。</p>
+<h2 id="PN结的电流方程"><a href="#PN结的电流方程" class="headerlink" title="PN结的电流方程"></a>PN结的电流方程</h2><p>PN结所加端电压$u$与其电流$i$的关系为</p>
+<blockquote>
+<p>$i&#x3D;I_s(e^{\frac{u}{U_T}}-1)$</p>
+</blockquote>
+<p>常温下（$T&#x3D;300K$）时，$U_T\approx26mV$<br>称$U_T$为温度的电压当量</p>
+]]></content>
+  </entry>
+  <entry>
     <title>compensation:KL divergence</title>
     <url>/2024/07/15/compensation-KL-divergence/</url>
     <content><![CDATA[<h2 id="Reason"><a href="#Reason" class="headerlink" title="Reason"></a>Reason</h2><p>$\quad$In the Expectation Propagation(EP) algorithm,the KL (Kullback-Leibler) divergence plays an important role. Expectation Propagation is a technique used for approximate inference, commonly employed in probabilistic graphical models. In the Expectation Propagation algorithm, the KL divergence is used to measure the difference between two probability distributions in order to update variational parameters during the approximate inference process.<br>$\quad$Specifically, the Expectation Propagation algorithm approximates the <em>posterior</em> distribution by iteratively updating variational parameters. In each iteration, the KL divergence is used to quantify the <strong>discrepancy</strong> between the approximate posterior distribution and the true posterior distribution. By minimizing the KL divergence, the approximate posterior distribution can be brought closer to the true posterior distribution,enhancing the accuracy of the approximate inference.</p>
@@ -269,406 +672,5 @@ connected FG model [23], in part to the approximations such as GAI. Second, the 
       <tags>
         <tag>learning</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>Reading Paper:A Low-Complexity Massive MIMO Detection Based on Approximate Expectation Propagation(AEP or EPA in this paper)</title>
-    <url>/2024/07/17/Reading-Paper-A-Low-Complexity-Massive-MIMO-Detection-Based-on-Approximate-Expectation-Propagation-AEP-or-EPA-in-this-paper/</url>
-    <content><![CDATA[<h2 id="Before-Beginning"><a href="#Before-Beginning" class="headerlink" title="Before Beginning"></a>Before Beginning</h2><p>Now that we have some basic understanding of MIMO and relative mathematical knowledge,we will attempt to get the hang of this paper(whose knowledge still present a challenge to me)!</p>
-<h3 id="A-Bit-of-Zero-Forcing-ZF"><a href="#A-Bit-of-Zero-Forcing-ZF" class="headerlink" title="A Bit of Zero Forcing(ZF)"></a>A Bit of Zero Forcing(ZF)</h3><p>HFor a receiving antenna,if the channel matrix is $\mathbf{H}$,the sent message $\mathbf{s}$ and the received modulated message is $\mathbf{r}$ and denote the Gaussian noise as $\mathbf{n}$,then we denote the received message as:</p>
-<blockquote>
-<p>$\mathbf{r}&#x3D;\mathbf{H\cdot s}+\mathbf{n}$</p>
-</blockquote>
-<p>The receiver don’t know about the sent messsage $\mathbf{s}$ so it decides to retrieve it from the received message $\mathbf{r}$.<br>Using MMSE,we can try to minimize$||\mathbf{r}-\mathbf{H\cdot s}||^2$<br>Obviously,we can get:</p>
-<blockquote>
-<p>$\hat{\mathbf{s}} &#x3D; (\mathbf{H}^\mathbf{*})^{-1}\mathbf{H} \mathbf{r}$</p>
-</blockquote>
-<p>where the term before $\mathbf{r}$ is the pseudo-inverse of a matrix,$\mathbf{H^*}$ denotes the conjugate of $\mathbf{H}$.<br>The retrieved message,compared to the original $\mathbf{s}$,is:</p>
-<blockquote>
-<p>$\mathbf{\hat s}&#x3D;\mathbf{s}+(\mathbf{n_m})$</p>
-</blockquote>
-<p>where $\mathbf{n_m}$ denotes the modified noise.<br>To eliminate the impact of possible influence of the modified noise,we add in a regularization factor $\delta \mathbf{I}$,so that:</p>
-<blockquote>
-<p>$$ \hat{\mathbf{s}} &#x3D; (\mathbf{H}^\mathbf{*} + \delta \mathbf{I})^{-1} \mathbf{H} \mathbf{r} $$</p>
-</blockquote>
-<p>where:<br>if $\delta \to 0$,the channel matrix takes over so the $\hat {\mathbf s}$ will be just as the equation<br>if $\delta \to \infty$,the $\mathbf{I}$ takses over and in such cases,$\hat {\mathbf{s}}&#x3D;\mathbf{H^*r}$<br>Completed!</p>
-<h3 id="Neumann-Series"><a href="#Neumann-Series" class="headerlink" title="Neumann Series"></a>Neumann Series</h3><h2 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h2><h3 id="Existing-Methods"><a href="#Existing-Methods" class="headerlink" title="Existing Methods"></a>Existing Methods</h3><p>The loading factor $\alpha$ is defined as $\alpha&#x3D;M&#x2F;N$,with M transmitting and N receiving signals.<br>Existing MMSE and ZF methods exibit near -optimal performances when $\alpha &lt;&lt;1$,while carrying low spectral efficiency.<br>When $\alpha \approx 1$ the spectral efficiency can be attained while losing performance for linear detectors.<br>Later methods like BP and GTA still present not satisfying performance.</p>
-<h3 id="Preliminary"><a href="#Preliminary" class="headerlink" title="Preliminary"></a>Preliminary</h3><h4 id="MIMO-System-Model"><a href="#MIMO-System-Model" class="headerlink" title="MIMO System Model"></a>MIMO System Model</h4><p>In this paper,we use real-value system:</p>
-<blockquote>
-<p>$\mathbf{y}&#x3D;\mathbf{Hx}+\mathbf{n}$</p>
-</blockquote>
-<p>where $\mathbf y\in \mathbb R^{2N}$,$\mathbf{H}\in \mathbb R^{2N\times 2M}$,$\mathbf{x}\in \Theta^{2M}$.$\mathbf n \sim \mathcal N(0,\sigma_n^2\mathbf I_{2N})$.<br>Assume a uniform prior distribution in this paper,meaning no tendency of a certain symbol.Expressed as $f(\mathbf x)\propto\prod_{i&#x3D;1}^{2M}\mathbb I_{x_i\in \Theta}$,where $\mathbb I_{x_i\in \Theta}$ is the indicator duncition of the constraints of the value of $x_i\in \Theta$<br>If $x_i\in \Theta$,the function&#x3D;1,else the function&#x3D;0.<br>The posterior distribution of $\mathbf x$ has the following representation:<br>$p(\mathbf x|\mathbf y)\propto p(\mathbf y|\mathbf x)f(\mathbf x)\propto \mathcal N(\mathbf y :\mathbf{Hx},\sigma^2_n\mathbf I_{2N})\prod_{i&#x3D;1}^{2M}{\mathbb I_{x_i\in \Theta}}$</p>
-<h3 id="EP-MIMO-Detectors"><a href="#EP-MIMO-Detectors" class="headerlink" title="EP  MIMO Detectors"></a>EP  MIMO Detectors</h3><p>EP detector(EPD) enables a Gaussian approximation to be constructed for the posterior distribution of the transmitted symbols based on moment matching.<br>EP requires the explicit calculation of full matrix inversion,resulting in $\mathcal O(M^3)$ computation complexity.<br>The EP-NSA method exhibits great performance with $\alpha&lt;&lt;1$ but suffers performance degradation for larger $\alpha$.<br>The EP-SU method still costs around $\mathcal O(M^3)$.<br>The above methods involve circumventing <strong>matrix inversion</strong>!<br>Therefore,an EPA method is propopsed.Recovering EP performance for$\alpha&lt;1$and approaches EP for $\alpha \geq 1$.</p>
-<h3 id="Outline"><a href="#Outline" class="headerlink" title="Outline"></a>Outline</h3><p>The remainder of this paper is structured as below. The exact EP approach for massive MIMO detection is introduced in Section II. In Section III, detailed derivation, description and discussion of the proposed algorithm EPA are presented. Section IV shows an alternative derivation of EPA from the viewpoint of EC.Numericalsimulation results of the proposed algorithm and analysis of the computational costs are provided in Section V.Section VI concludes the paper.</p>
-<h2 id="Simulation-Analysis"><a href="#Simulation-Analysis" class="headerlink" title="Simulation Analysis"></a>Simulation Analysis</h2><p>Consider i.i.d.(independent and identically distributed)Rayleigh-fading channels with AWGN. </p>
-<h2 id="Appendix"><a href="#Appendix" class="headerlink" title="Appendix"></a>Appendix</h2><p>ZF: zero forcing<br>CHEMP: channel-hardening exploiting message passing<br>GTA: Gaussian tree approximation<br>EP-NSA: EP with Neumann series approximation<br>EP-SU: EP-successive updating<br>EC: expectation consistency<br>i.i.d:independent and identically distributed<br>AWGN: additive white Gaussian noise</p>
-]]></content>
-      <tags>
-        <tag>Reading-Paper</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Reading:Pattern Recognition and Machine Learning</title>
-    <url>/2024/07/17/Reading-Pattern-Recognition-and-Machine-Learning/</url>
-    <content><![CDATA[<h2 id="Chapter-8-Graphical-Models"><a href="#Chapter-8-Graphical-Models" class="headerlink" title="Chapter 8:Graphical Models"></a>Chapter 8:Graphical Models</h2><p>In graphical models,there are two parts:</p>
-<blockquote>
-<p>nodes or vertices<br>links or edges or arcs</p>
-</blockquote>
-<p>The graphical models mainly divide into two parts</p>
-<blockquote>
-<p><em>Bayesian networks</em> or <em>directed graphical models</em> </p>
-</blockquote>
-<blockquote>
-<p><em>Markov  random fields</em> or <em>undirected graphical models</em></p>
-</blockquote>
-<blockquote>
-<p>“Directed graphs are useful for expressing causal relationships between<br> random variables, whereas undirected graphs are better suited to expressing soft con<br>straints between random variables. For the purposes of solving inference problems,<br> it is often convenient to convert both directed and undirected graphs into a different<br> representation called a factor graph.”</p>
-</blockquote>
-<h3 id="Bayesian-Networks"><a href="#Bayesian-Networks" class="headerlink" title="Bayesian Networks"></a>Bayesian Networks</h3><p><em>Multiplication Theorem of Probabilities</em><br>This can be denoted as:</p>
-<blockquote>
-<p>$p(a,b)&#x3D;p(a|b)p(b)$</p>
-</blockquote>
-<p>which originates from the <em>conditional probability</em></p>
-<blockquote>
-<p>$p(A|B)&#x3D;\frac{p(AB)}{p(B)}$</p>
-</blockquote>
-<p>For this relationship $P(a,b,c)$,we can take it separately as:</p>
-<blockquote>
-<p>$P(a,b,c)&#x3D;P(c|a,b)P(a,b)&#x3D;P(c|a,b)P(b|a)P(a)$</p>
-</blockquote>
-<p>This can be represented by a graph:<br><img src="/images/graph81.png" alt="图片" title="Graph Denoting a,b,c"><br>Now let’s consider a more complicated scenario,there are N numbers in a column vector, polynomial coefficients $\mathbf{w}$.The input data $\mathbf{x}&#x3D;(x_1,…,x_n)^T$ and the observed data$\mathbf{t}&#x3D;(t_1,…,t_n)^T$,with a Gaussian noises variance $\sigma^2$ and a hyperparameter $\alpha$ representing the precision of the Gaussian prior over $\mathbf{w}$.<br>The joint distribution is given by the product of the prior $p(\mathbf{w})$ and $N$ conditional distributions $p(t_n|\mathbf{w})$ for $n&#x3D;1,2,…,N$.</p>
-<blockquote>
-<p>$p(\mathbf{t,w})&#x3D;p(\mathbf{w})\displaystyle \prod_{n&#x3D;1}^{N}{p(t_n|\mathbf{w})}$</p>
-</blockquote>
-<h2 id="Appendix"><a href="#Appendix" class="headerlink" title="Appendix"></a>Appendix</h2><p>PDF: probability density function</p>
-]]></content>
-      <tags>
-        <tag>learning</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>First Glance at Covariance Matrix</title>
-    <url>/2024/07/18/First-Glance-at-Covariance-Matrix/</url>
-    <content><![CDATA[<h2 id="Definition"><a href="#Definition" class="headerlink" title="Definition"></a>Definition</h2><p>Let $X$ be a $N\times 1$ random column vector.The <em>covariance matrix</em> of $X$ is denoted as $Var[X]$ ,and defined as</p>
-<blockquote>
-<p>$Var[X]&#x3D;E[(X-E(X))(X-E[X])^T]$</p>
-</blockquote>
-<p>where $E(\cdot)$ denoted the expectation of $\cdot$.<br>In the equation above,we can transform the dot product form into square form,in other words:</p>
-<blockquote>
-<p>$E[(X-E(X))(X-E[X])^T]&#x3D;E[(X-E(X))^2]$</p>
-</blockquote>
-<h2 id="Example"><a href="#Example" class="headerlink" title="Example"></a>Example</h2><p>Suppose $x$ is a $2\times 1$ vector,with $X_1,X_2$ as its components.<br>Let</p>
-<blockquote>
-<p>$Var[X_1]&#x3D;2$<br>$Var[X_2]&#x3D;4$<br>$Cov[X_1,X_2]&#x3D;1$</p>
-</blockquote>
-<p>Noticably,</p>
-<blockquote>
-<p>$Var[X]&#x3D;\begin{bmatrix}<br>Var[X_1] &amp;Cov[X_1,X_2]\\<br>Cov[X_2,X_1] &amp;Var[X_2]<br>\end{bmatrix}\<br>&#x3D;\begin{bmatrix}<br>2 &amp;1\\<br>1 &amp;4<br>\end{bmatrix}<br>$</p>
-</blockquote>
-<p>The covariance matrix can also be counted by using the equivalent formula below:</p>
-<blockquote>
-<p>$Var[X]&#x3D;E[XX^T]-E[X]E[X]^T$</p>
-</blockquote>
-<p>Also,we have such corollaries below:</p>
-<blockquote>
-<p>$Var[a+X]&#x3D;Var[X]$</p>
-</blockquote>
-<blockquote>
-<p>$Var[bX]&#x3D;bVar[X]b^T$</p>
-</blockquote>
-<blockquote>
-<p>$Var[X]^T&#x3D;Var[X]$</p>
-</blockquote>
-<h2 id="Covariance-between-Linear-Transformations"><a href="#Covariance-between-Linear-Transformations" class="headerlink" title="Covariance between Linear Transformations"></a>Covariance between Linear Transformations</h2><p>Let $a$ and $b$ be two constant $1\times K$ vectors and $X$ a $K\times 1$ random vector.The covariance between two linear transformations $aX$ and $bX$ is</p>
-<blockquote>
-<p>$Cov[aX,bX]&#x3D;aVar[X]b^T$</p>
-</blockquote>
-<h2 id="Cross-Covariance"><a href="#Cross-Covariance" class="headerlink" title="Cross-Covariance"></a>Cross-Covariance</h2><p>For two random vectors,what will happen?<br>Let $X$ be a $K\times 1$ vector and $Y$ be a $L\times 1$ vector(random).The covariance matrix between $X,Y$ is denoted by $Cov[X,Y]$</p>
-<blockquote>
-<p>$Cov[X,Y]&#x3D;E[(X-E(X)(Y-E(Y))^T]$</p>
-</blockquote>
-<p>resulting in a $K\times L$ matrix.<br>Apparently,$Cov[X,Y]\neq Cov[Y,X]$,but $Cov[X,Y]&#x3D; (Cov[Y,X])^T$<br>What’s worth noting is that the Covariance Matrix bears good <em>linearity</em>!</p>
-<h2 id="Reference"><a href="#Reference" class="headerlink" title="Reference:"></a>Reference:</h2><p><em>Taboga, Marco (2021). “Covariance matrix”, Lectures on probability theory and mathematical statistics. Kindle Direct Publishing. Online appendix. <a href="https://www.statlect.com/fundamentals-of-probability/covariance-matrix">https://www.statlect.com/fundamentals-of-probability/covariance-matrix</a>.</em></p>
-]]></content>
-      <tags>
-        <tag>learning</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Analysis:How to Form a Paper</title>
-    <url>/2024/07/19/Analysis-How-to-Form-a-Paper/</url>
-    <content><![CDATA[<h2 id="Abstract"><a href="#Abstract" class="headerlink" title="Abstract"></a><strong>Abstract</strong></h2><p>$\quad$ Recent environment encourage students to create their own works or even present paper in the undergraduate period.But for most of the first and second year student,they find themselves hard to acquire the basic and needed skills and knowledge to structurize a formal paper with great proficiency.In order to prevent students from being tortured and to prevent peer viewers and mentors from relentlessly modifying and correcting paper,this work is proposed.The aim of this paper is to propose the conventional formula of how to c</p>
-]]></content>
-      <tags>
-        <tag>learning</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Variance and Covariance</title>
-    <url>/2024/07/22/Variance-and-Covariance/</url>
-    <content><![CDATA[<h2 id="Variance"><a href="#Variance" class="headerlink" title="Variance"></a>Variance</h2><p>The <em>variance</em> of a random variable $X$ can be defined as:</p>
-<blockquote>
-<p>If $\mathbb E(X)&#x3D;\mu$</p>
-</blockquote>
-<blockquote>
-<p>$var(X)&#x3D;\mathbb E((x-\mu)^2)$</p>
-</blockquote>
-<p>For its <em>standard deviation</em>,soometimes denotes as $sd(X)$,is defined as</p>
-<blockquote>
-<p>$sd(X)&#x3D;\sqrt{var(X)}$</p>
-</blockquote>
-<p>The variance has the following properties:</p>
-<blockquote>
-<p>$var(X+C)&#x3D;var(X)$<br>$var(bX)&#x3D;b^2var(X)$</p>
-</blockquote>
-<p>Similarly,in the covariance matrix chapter,the <em>covariance matrix</em> has near-the-same properties.</p>
-<h3 id="The-Tchebychev-inequality"><a href="#The-Tchebychev-inequality" class="headerlink" title="The Tchebychev inequality"></a>The Tchebychev inequality</h3><blockquote>
-<p>$\mathbb P{(|X-\mu|)&gt;\epsilon}\leq \frac{var(X)}{\epsilon^2}$</p>
-</blockquote>
-<p>where $\mu$ is the expectation of $X$,and $\epsilon&gt;0$<br>The variance can be sometimes canculated in another way:</p>
-<blockquote>
-<p>$var(X)&#x3D;\mathbb E(X^2)-\mathbb E(X)^2$</p>
-</blockquote>
-<h2 id="Covariance"><a href="#Covariance" class="headerlink" title="Covariance"></a>Covariance</h2><p>The <em>covariance</em> of two random variables $X$ and $Y$ is defined as:</p>
-<blockquote>
-<p>$cov(X,Y)&#x3D;\mathbb E{(X-\mathbb E(X))(Y-\mathbb E(Y))}$</p>
-</blockquote>
-<p>for a more complicated expression with $a,b,c,d$ as constants and $U,V,X,Y$ as random variables,we denote:</p>
-<blockquote>
-<p>$cov(aU+bV,cX+dY)&#x3D;accov(U,X)+bccov(V,X)+adcov(U,Y)+bdcov(V,Y)$</p>
-</blockquote>
-<h2 id="Correlation"><a href="#Correlation" class="headerlink" title="Correlation"></a>Correlation</h2><p>The <em>correlation</em> between two variables $Y$ and $Z$ can be denoted as:</p>
-<blockquote>
-<p>corr(Y,Z)&#x3D;\frac{cov(Y,Z)}{\sqrt{var(Y)var(Z)}}</p>
-</blockquote>
-<h2 id="Standardized-Variables"><a href="#Standardized-Variables" class="headerlink" title="Standardized Variables"></a>Standardized Variables</h2><p>To standardize between different variables,we need to find a way:<em>standardized variables</em>.For two variables $Y$ and $Z$,with their mean and variance $\mu _Y$ $\sigma^2_Y$ $\mu _Z$ $\sigma^2_Z$.We standardize each with the following:</p>
-<blockquote>
-<p>$Y’&#x3D;\frac{Y-\mu_Y}{\sigma_Y}$<br>$Z’&#x3D;\frac{Z-\mu_Z}{\sigma_Z}$</p>
-</blockquote>
-<p>In this way,the mean of $Y’,Z’$ is 0 and the variance of them is 1,and</p>
-<blockquote>
-<p>$corr(Y,Z)&#x3D;cov(Y’,Z’)&#x3D;\mathbb E(Y’Z’)$</p>
-</blockquote>
-]]></content>
-      <tags>
-        <tag>learning</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Gaussian Distribution</title>
-    <url>/2024/07/22/Gaussian-Distribution/</url>
-    <content><![CDATA[<h2 id="Why-Gaussian-Distribution–Central-Limit-Theorem"><a href="#Why-Gaussian-Distribution–Central-Limit-Theorem" class="headerlink" title="Why Gaussian Distribution–Central Limit Theorem"></a>Why Gaussian Distribution–Central Limit Theorem</h2><h3 id="Population-and-Sample"><a href="#Population-and-Sample" class="headerlink" title="Population and Sample"></a>Population and Sample</h3><p>The <em>population</em> refers to the whole set of individuals that we want to study,and the <em>sample</em> refers to the subset that we choose from the population to study(in respect for the fact that we can’t choose the whole population to study in a row)</p>
-<h3 id="Central-Limit-Theorem"><a href="#Central-Limit-Theorem" class="headerlink" title="Central Limit Theorem"></a>Central Limit Theorem</h3><p>The Central Limit Theorem (CLT) is a fundamental theorem in probability theory and statistics that states that the distribution of the sum (or average) of a large number of independent, identically distributed variables will be approximately normal, regardless of the underlying distribution.</p>
-<p>More specifically, if we take a sample of $n$ observations from any population, calculate the sample’s mean, and repeat that process a large number of times, the distribution of those sample means will be normally distributed. This distribution will have the same mean as the population from which the samples were drawn, and its standard deviation (also known as the standard error) will be equal to the standard deviation of the population divided by the square root of the sample size.</p>
-<h2 id="Single-Variable-Univariate-Gaussian-Distribution-Normal-Distribution"><a href="#Single-Variable-Univariate-Gaussian-Distribution-Normal-Distribution" class="headerlink" title="Single Variable(Univariate) Gaussian Distribution(Normal Distribution)"></a>Single Variable(Univariate) Gaussian Distribution(Normal Distribution)</h2><h3 id="Definition"><a href="#Definition" class="headerlink" title="Definition"></a>Definition</h3><p>For a random variable $x$,if its <em>probability density function</em> is:</p>
-<blockquote>
-<p>$f(x)&#x3D;\frac{1}{\sqrt{2\pi}\sigma}e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2}$</p>
-</blockquote>
-<p>where $\mu$ and $\sigma$ are the mean and variance of $x$.Then we can say the variable follows the normal distribution.<br>If the variable $x$ follows the Gaussian distribution,we can denote this kind of distribution as:</p>
-<blockquote>
-<p>$x\sim N(\mu,\sigma^2)$</p>
-</blockquote>
-<h2 id="Multivariate-Normal-Distribution"><a href="#Multivariate-Normal-Distribution" class="headerlink" title="Multivariate Normal Distribution"></a>Multivariate Normal Distribution</h2><p>For a mutivariable $n\times 1$ vector $X$ distributed following the multivariate distribution,with population mean vector $\mathbf{\mu}$ and a variance-covariance matrix $\Sigma$,the PDF(possibbility density function) can be described as:</p>
-<blockquote>
-<p>$\phi(X)&#x3D;\frac{|\Sigma|^{\frac{-1}{2}}}{(2\pi)^{\frac{n}{2}}}\exp{\frac{-1}{2}(X-\mathbf \mu)^T\Sigma^{-1}(X-\mathbf\mu) }$</p>
-</blockquote>
-<p>If $n&#x3D;2$ ,then we get the <em>bivariate normal distribution</em>,resulting in a bell-shaped curve in three dimensions.</p>
-<h3 id="Mahalanobis-Distance"><a href="#Mahalanobis-Distance" class="headerlink" title="Mahalanobis Distance"></a>Mahalanobis Distance</h3><p>Noticably,the mahalanobis distance is a distance!In the univariate case,if it is greater than zero,then the variable is larger than mean,vice versa.<br>In the multivariate case,since the covariance matrix $\Sigma$ is always positive definite,the distance is always greater than 0!</p>
-<h4 id="In-Univariate-Normal-Distribution"><a href="#In-Univariate-Normal-Distribution" class="headerlink" title="In Univariate Normal Distribution"></a>In Univariate Normal Distribution</h4><p>This distance can be measured as:</p>
-<blockquote>
-<p>$d&#x3D;\frac{x-\mu}{\sigma}$</p>
-</blockquote>
-<h4 id="In-Multivariate-Normal-Distribution"><a href="#In-Multivariate-Normal-Distribution" class="headerlink" title="In Multivariate Normal Distribution"></a>In Multivariate Normal Distribution</h4><p>Also,this distance can be measured as:</p>
-<blockquote>
-<p>$d&#x3D;\sqrt{(X-\mu)^T\Sigma^{-1}(X-\mu)}$</p>
-</blockquote>
-<h3 id="Integral-Property"><a href="#Integral-Property" class="headerlink" title="Integral Property"></a>Integral Property</h3><p>For univariate normal distribution:</p>
-<blockquote>
-<p>$\frac{1}{\sqrt{2\pi}\sigma}\int_{-\infty}^{\infty}{\exp{\frac{-1}{2\sigma^2}(x-\mu)^2}}&#x3D;1$</p>
-</blockquote>
-<p>For multivariate normal distribution:</p>
-<blockquote>
-<p>$\frac{1}{2\pi^{\frac{n}{2}}|\Sigma|^\frac{1}{2}}\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}…\int_{-\infty}^{\infty}\exp{-\frac{1}{2}(x-\mu)^T\Sigma^{-1}(x-\mu)dx_1dx_2…dx_n}&#x3D;1$</p>
-</blockquote>
-<h2 id="Diagonal-Covariance-Matrix-Product-Gaussian"><a href="#Diagonal-Covariance-Matrix-Product-Gaussian" class="headerlink" title="Diagonal Covariance Matrix-&gt;Product Gaussian"></a>Diagonal Covariance Matrix-&gt;Product Gaussian</h2><p>Let’s imagine a diagonal covariance matrix $\Sigma$,OK,cool!This means the variables are independent!<br>Let’s take a $2\times 2$ covariance matrix for example:<br>In this column,we define $X&#x3D;(x_1,x_2)$,the variance matrix $\Sigma &#x3D; [\begin{matrix}<br>\sigma_1^2 &amp; 0 \\<br>0 &amp; \sigma_2^2<br>\end{matrix} ]$<br>and the mean vector $\mu&#x3D;(\mu_1,\mu_2)$.<br>WE can easily compute the inverse matrix $\Sigma^{-1}&#x3D;[\begin{matrix}<br>\frac{1}{\sigma_1^2} &amp; 0 \\<br>0 &amp; \frac{1}{\sigma_2^2}<br>\end{matrix} ]$<br>In this case,we can find the PDF as:</p>
-<blockquote>
-<p>$p(x;\mu,\Sigma)&#x3D;\frac{1}{2\pi\sigma_1\sigma_2}\exp{(-\frac{1}{2}(x-\mu)^T\Sigma^{-1}(x-\mu))}$</p>
-</blockquote>
-<p>Further computing it,we get:</p>
-<blockquote>
-<p>$p(x;\mu,\Sigma)&#x3D;\frac{1}{\sqrt{2\pi}\sigma_1}\exp{(-\frac{1}{2\sigma_1^2}(x_1-\mu_1)^2)}\frac{1}{\sqrt{2\pi}\sigma_2}\exp{(-\frac{1}{2\sigma_2^2}(x_2-\mu_2)^2)}$</p>
-</blockquote>
-<p>Further corollary shows for a n-dimensional variable vector $x$,we have:<br>$p(x;\mu,\Sigma)&#x3D;\prod_{i&#x3D;1}^{n}\frac{1}{\sqrt{2\pi}\sigma_{i}}\exp{(-\frac{1}{2\sigma_i^2}(x_i-\mu_i)^2)}$</p>
-<h2 id="Ellipse-Where-Does-This-Thing-Come-From"><a href="#Ellipse-Where-Does-This-Thing-Come-From" class="headerlink" title="Ellipse:Where Does This Thing Come From??"></a>Ellipse:Where Does This Thing Come From??</h2><h3 id="Isocontour-Hooray-Geography"><a href="#Isocontour-Hooray-Geography" class="headerlink" title="Isocontour(Hooray Geography!)"></a>Isocontour(Hooray Geography!)</h3><p>Let us take the same definition above and consider this:</p>
-<blockquote>
-<p>Let $c&#x3D;\frac{1}{2\pi\sigma_1\sigma_2}\exp(-\frac{1}{2}(\frac{x_1-\mu_1}{\sigma_1})^2-\frac{1}{2}(\frac{x_2-\mu_2}{\sigma_2})^2)$<br>$2\pi c\sigma_1\sigma_2&#x3D;\exp(-\frac{1}{2}(\frac{x_1-\mu_1}{\sigma_1})^2-\frac{1}{2}(\frac{x_2-\mu_2}{\sigma_2})^2)$<br>$\log(2\pi\sigma_1\sigma_2)&#x3D;-\frac{1}{2}(\frac{x_1-\mu_1}{\sigma_1})^2-\frac{1}{2}(\frac{x_2-\mu_2}{\sigma_2})^2$<br>$1&#x3D;\frac{(x_1-\mu_1)^2}{2\sigma_1^2\log(\frac{1}{2\pi c\sigma_1\sigma_2})}+\frac{(x_2-\mu_2)^2}{2\sigma_2^2\log(\frac{1}{2\pi c\sigma_1\sigma_2})}$</p>
-</blockquote>
-<p>Define:</p>
-<blockquote>
-<p>$r_1&#x3D;\sqrt{2\sigma_1^2\log(\frac{1}{2\pi c\sigma_1\sigma_2})}$<br>$r_2&#x3D;\sqrt{2\sigma_2^2\log(\frac{1}{2\pi c\sigma_1\sigma_2})}$</p>
-</blockquote>
-<p>An ellipse occurs!</p>
-<h3 id="Non-diagonal-Higher-Dimensional-–-Still-Symmetric"><a href="#Non-diagonal-Higher-Dimensional-–-Still-Symmetric" class="headerlink" title="Non-diagonal&#x2F;Higher Dimensional – Still Symmetric"></a>Non-diagonal&#x2F;Higher Dimensional – Still Symmetric</h3><p>For a two dimensional covariance matrix,this turns to a non-axis-aligned ellipse.<br>For a higher dimenstional one,say in the $n$-dimensional case,we get a high dimensional ellipsoids in $\mathbf R^n$</p>
-<h2 id="Linear-Transformation-This-Is-a-Matrix"><a href="#Linear-Transformation-This-Is-a-Matrix" class="headerlink" title="Linear Transformation: This Is a Matrix!"></a>Linear Transformation: This Is a Matrix!</h2><p>Here is a theorem saying:</p>
-<blockquote>
-<p>Let $X\sim \mathcal N(\mu,\Sigma)$ for some $\mu\in \mathbf R^n$ and $\Sigma\in \mathbf S_{++}^n$.Then there exists a matrix $B\in R^{n\times n}$ such that if $Z&#x3D;B^{-1}(X-\mu)$,then $Z\sim \mathcal N(0,I)$</p>
-</blockquote>
-]]></content>
-      <tags>
-        <tag>learning</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>FirstArticle</title>
-    <url>/2024/07/09/Unused/Article/</url>
-    <content><![CDATA[<h2 id="这是一个简单的测试文章"><a href="#这是一个简单的测试文章" class="headerlink" title="这是一个简单的测试文章"></a>这是一个简单的测试文章</h2><blockquote>
-<p><em>祈求在路上没任何的阻碍，令愉快旅程变悲哀</em><br><strong>–杨千嬅</strong></p>
-</blockquote>
-<h3 id="这是一个小标题-小标题呀小标题"><a href="#这是一个小标题-小标题呀小标题" class="headerlink" title="这是一个小标题 小标题呀小标题"></a>这是一个小标题 小标题呀小标题</h3><p>这是一个公式，能不能运行捏？</p>
-<blockquote>
-<p>$\sum_{n&#x3D;1}^{\infty}log_{2}(n)$</p>
-</blockquote>
-]]></content>
-  </entry>
-  <entry>
-    <title>MMSE and Relative Methods</title>
-    <url>/2024/07/23/MMSE-and-Relative-Methods/</url>
-    <content><![CDATA[<h2 id="MMSE-Estimation"><a href="#MMSE-Estimation" class="headerlink" title="MMSE Estimation"></a>MMSE Estimation</h2><h3 id="Estimation-with-PDF"><a href="#Estimation-with-PDF" class="headerlink" title="Estimation with PDF"></a>Estimation with PDF</h3><p>For a random variable $x:\Omega \to \mathbb R^n$ with its PDF $p^x$<br>We can <em>predict</em> or <em>estimate</em> the outcome:</p>
-<blockquote>
-<p>Given <em>cost function</em> $c$: $\mathbb<br>R^n\times\mathbb R^n\to R$<br>Pick <em>estimate</em> $\hat x$ to minimize $\mathbf Ex(x,\hat x)$</p>
-</blockquote>
-<h4 id="The-Cost-Function"><a href="#The-Cost-Function" class="headerlink" title="The Cost Function"></a>The Cost Function</h4><blockquote>
-<p>$c(x,\hat x)&#x3D;||x-\hat x||^2$</p>
-</blockquote>
-<h4 id="The-Mean-Square-Error"><a href="#The-Mean-Square-Error" class="headerlink" title="The Mean Square Error"></a>The Mean Square Error</h4><p>The <em>mean square error</em>(MSE) is:</p>
-<blockquote>
-<p>$\mathbf E(||x-\hat x||^2)&#x3D;\int ||x-\hat x||^2p^x(x)dx$</p>
-</blockquote>
-<p>The PDF in this equation can be interpreted as a kind of special weight function!</p>
-<h4 id="The-Minimum-Mean-Square-Error"><a href="#The-Minimum-Mean-Square-Error" class="headerlink" title="The Minimum Mean-Square Error"></a>The Minimum Mean-Square Error</h4><p>The <em>minimum mean-square error</em> is defined as:</p>
-<blockquote>
-<p>$\displaystyle \min_{\hat x}\mathbf  E(||x-\hat x||^2)$</p>
-</blockquote>
-<p>We can derive from that formula:</p>
-<blockquote>
-<p>$\displaystyle \min_{\hat x}\mathbf  E(||x-\hat x||^2)\\&#x3D;\displaystyle \min_{\hat x}\mathbf  E((x-\hat x)^T(x-\hat x))\\&#x3D;\mathbf E||x||^2-2\hat x^T\mathbf Ex+\hat x^T \hat x$</p>
-</blockquote>
-<p>Take the derivative of it,we get:</p>
-<blockquote>
-<p>$\hat x_{mmse}&#x3D;\mathbf Ex$</p>
-</blockquote>
-<p>The mean square error of it is:</p>
-<blockquote>
-<p>$\mathbf E(||x-\hat x_{mmse}||^2)&#x3D;\mathbf{trace cov}(x)$</p>
-</blockquote>
-<h4 id="The-Mean-Variance-Decomposition"><a href="#The-Mean-Variance-Decomposition" class="headerlink" title="The Mean-Variance Decomposition"></a>The Mean-Variance Decomposition</h4><p>The MVD can be interpreted as:</p>
-<blockquote>
-<p>$\mathbf E(||z||^2)&#x3D;\mathbf E(||z-\mathbf Ez||^2)+||\mathbf Ez||^2$</p>
-</blockquote>
-<p>Applying this to the $z&#x3D;x-\hat x$</p>
-<blockquote>
-<p>$\mathbf E(||x-\hat x||^2)&#x3D;\mathbf E(||x-\mathbf Ex||^2)+||\hat x-\mathbf Ex||^2$</p>
-</blockquote>
-<p>The first term is the <em>variance</em> of $x$<br>The second term is the <em>bias</em> of $x$</p>
-<h3 id="The-Estimation-Problem"><a href="#The-Estimation-Problem" class="headerlink" title="The Estimation Problem"></a>The Estimation Problem</h3><p>$x,y$ are random variables,with joint PDF $p(x,y)$<br>We have already measured the variable $y&#x3D;y_{meas}$<br>Now we want to find the MMSE of $x$ given $y&#x3D;y_{meas}$<br>Note that the <em>estimator</em> stands for a function $\phi:\mathbb R^m\to \mathbb R^n$<br>We define $\hat x_{est}&#x3D;\phi(y_{meas})$<br>How can we find the function $\phi$ to minimize the cost function?</p>
-<blockquote>
-<p>$J&#x3D;\mathbf E(||\phi(y)-x||^2)$</p>
-</blockquote>
-<p>We define the <em>marginal PDF</em> of $y$ as:</p>
-<blockquote>
-<p>$p^y(y)&#x3D;\int p(x,y)dx$ </p>
-<blockquote>
-<p>Wow!We can easily notice that this is a continuous form of the marginal function!(See in the factor graph section!).What a surprise!</p>
-</blockquote>
-</blockquote>
-<p>And the <em>conditioned pdf</em> of $y$:</p>
-<blockquote>
-<p>$p^{|y}(y)&#x3D;\frac{p(x,y)}{p^y(y)}$</p>
-</blockquote>
-<h3 id="The-MMSE-Estimator"><a href="#The-MMSE-Estimator" class="headerlink" title="The MMSE Estimator"></a>The MMSE Estimator</h3><p>The <em>mean-square-error conditioned on</em> $y$ is $e_{cond}(y)$,given by:</p>
-<blockquote>
-<p>$e_{cond}(y)&#x3D;\int||\phi(y)-x||^2p^{|y}(x,y)dx$</p>
-</blockquote>
-<p>Then the mean square error $J$ is given by:</p>
-<blockquote>
-<p>$J&#x3D;\mathbf E(e_{cond}(y))$</p>
-</blockquote>
-<p>Because:</p>
-<blockquote>
-<p>$J&#x3D;\int\int ||\phi(y)-x||^2p(x,y)dxdy\\&#x3D;\int p^y(y)e_{cond}(y)dy$</p>
-</blockquote>
-<h3 id="The-affine-transformation-in-signal-processing"><a href="#The-affine-transformation-in-signal-processing" class="headerlink" title="The affine transformation(in signal processing)"></a>The affine transformation(in signal processing)</h3><p>For a signal $\mathbf y$ received and a certain <em>channel matrix</em> $\mathbf H$,we have:</p>
-<blockquote>
-<p>$\mathbf {y&#x3D;Hs+n}$</p>
-</blockquote>
-<p>where we suppose $\mathbf{y\in R^{N_r},s\in R^{N_t}},H\in R^{N_r\times N_t}$<br>The expectation of $\mathbf y$ is:</p>
-<blockquote>
-<p>$\mathbf {Ey&#x3D;E(Hs+n)&#x3D;HE(\mathbf s)}&#x3D;H\mu$</p>
-</blockquote>
-<p>The covariance is:</p>
-<blockquote>
-<p>$\mathbf {\Sigma_y &#x3D;E(y-\hat y)(y-\hat y)^T&#x3D;EH(s- \hat s)(s-\hat s)^TH^T}\\$<br>$&#x3D;\mathbf{H\Sigma_sH^T+\Sigma_n}$</p>
-</blockquote>
-<p>which denotes the <em>signal covariance</em> and <em>noise covariance</em></p>
-]]></content>
-      <tags>
-        <tag>learning</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Continuous RV distributions</title>
-    <url>/2024/07/25/Continuous-RV-distributions/</url>
-    <content><![CDATA[<h2 id="Preface"><a href="#Preface" class="headerlink" title="Preface"></a>Preface</h2><p>In recent days of browsing the Internet for relevant learning materials,I find it good to have a better understanding of possibilities by looking at some basic concepts!Therefore,I come up with this chapter:<em>Continuous RV distributions</em>,where RV stands for random variables.</p>
-<h2 id="Continuous-Random-Variables"><a href="#Continuous-Random-Variables" class="headerlink" title="Continuous Random Variables"></a>Continuous Random Variables</h2><p>Every continuous random variable has a probability density function (PDF), instead of a probability mass function (PMF),where the limit in calculus takes place,showing in a given section,the possibility of a given event to happen is 0.</p>
-<h3 id="PDF-and-CDF"><a href="#PDF-and-CDF" class="headerlink" title="PDF and CDF"></a>PDF and CDF</h3><p>PDF:<br>define $f(x)$ as the possibility density function of $x$ so that:</p>
-<blockquote>
-<p>$\int_{-\infty}^{\infty}f(x)dx&#x3D;1$<br>$\mathbb P(x\approx q)&#x3D;\mathbb P(q-\frac{\epsilon}{2}\leq X\leq q+\frac{\epsilon}{2})\approx \epsilon f_x(q)$</p>
-</blockquote>
-<p>CDF:<br>define $F(x)$ as the cumulative distribution function so that:</p>
-<blockquote>
-<p>$F_x(w)&#x3D;\mathbb P(x\leq w)&#x3D;\int _{-\infty}^{w}{f(x)dx}$</p>
-</blockquote>
-<p>Noticably,PDF is the derivative of CDF.</p>
-<h3 id="Expectation-and-Variance"><a href="#Expectation-and-Variance" class="headerlink" title="Expectation and Variance"></a>Expectation and Variance</h3><p>The expectation of a continuous RV can be counted as follows:</p>
-<blockquote>
-<p>$\mathbb E(x)&#x3D;\int_{-\infty}^{\infty}{tf_x(t)dt}$</p>
-</blockquote>
-<p>The variance of a RV can be counted as follows:</p>
-<blockquote>
-<p>$Var(x)&#x3D;\mathbb E(x^2)-\mathbb E^2(x)$</p>
-</blockquote>
-<p>or also:</p>
-<blockquote>
-<p>$Var(x)&#x3D;\int_{-\infty}^{\infty}{(t-\mathbb E(x))f_x(t)dt}$</p>
-</blockquote>
-<h3 id="Exponential-Family"><a href="#Exponential-Family" class="headerlink" title="Exponential Family"></a>Exponential Family</h3><p>$X\sim Exp(\lambda)$,if X follows the pdf:</p>
-<blockquote>
-<p>$f_X(x)&#x3D;\begin{cases}\lambda e^{-\lambda x},x\geq 0\\0,otherwise\end{cases}$</p>
-</blockquote>
-<p>Calculating this,we know:</p>
-<blockquote>
-<p>$\mathbb E(X)&#x3D;\frac{1}{\lambda},Var(X)&#x3D;\frac{1}{\lambda^2}$</p>
-</blockquote>
-<p>The cdf of it is:</p>
-<blockquote>
-<p>$F_X(x)&#x3D;\begin{cases}1-e^{-\lambda x},x\geq 0\\0,otherwise\end{cases}$</p>
-</blockquote>
-<h3 id="The-Gamma-Gamma-RV"><a href="#The-Gamma-Gamma-RV" class="headerlink" title="The Gamma($\Gamma$) RV"></a>The Gamma($\Gamma$) RV</h3><p>$X\sim Gamma(r,\lambda)$ if and only if $X$ has the following pdf:</p>
-<blockquote>
-<p>$f_X(x)&#x3D;\begin{cases}\frac{\lambda^r}{(r-1)!}{x^{r-1}e^{-\lambda x}},x&gt;0\\0,otherwise\end{cases}$</p>
-</blockquote>
-<p>where:</p>
-<blockquote>
-<p>$\mathbb E(X)&#x3D;\frac{r}{\lambda},Var(X)&#x3D;\frac{r}{\lambda^2}$</p>
-</blockquote>
-]]></content>
-      <tags>
-        <tag>learning</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>Rotation Matrix with MATLAB Code</title>
-    <url>/2024/10/09/code%E2%80%9D/</url>
-    <content><![CDATA[<h2 id="What-we-are-up-to-do-here"><a href="#What-we-are-up-to-do-here" class="headerlink" title="What we are up to do here"></a>What we are up to do here</h2><p><strong>In this blog,we will visualize how rotation matrix works</strong><br>Code first:<br><figure class="highlight plaintext"><figcaption><span>[Code to demonstrate rotation]</span></figcaption><table><tr><td class="code"><pre><span class="line">lb=-pi;</span><br><span class="line">ub=pi;</span><br><span class="line">theta=lb+(ub-lb)*rand(1);</span><br><span class="line">x=[1,1];</span><br><span class="line">%figure;</span><br><span class="line">%quiver(0,0,x(1),x(2));</span><br><span class="line">R=[cos(theta),sin(theta);sin(-theta),cos(theta)];</span><br><span class="line">x_trans=R*x&#x27;;</span><br><span class="line">disp((theta*360)/(2*pi));</span><br><span class="line">figure;</span><br><span class="line">quiver(0,0,x_trans(1),x_trans(2));</span><br><span class="line">title(&#x27;transformed angle:&#x27;,(theta*360)/(2*pi));</span><br></pre></td></tr></table></figure><br>With the code,we can plot figures of rotation,as follows:<br><strong><em>Demonstrate original vector</em></strong><br><img src="/images/OriginalVec.jpg" alt="图片" title="Original Vector"><br><strong><em>Demonstrate rotated vector</em></strong><br><img src="/images/RotatedVec.jpg" alt="图片" title="Original Vector"><br>By setting the rotation angle $\theta$ between $[-\pi,\pi]$,we can see in the example above,the vector is rotated anti-clockwise with the angle demonstrated.</p>
-]]></content>
   </entry>
 </search>
