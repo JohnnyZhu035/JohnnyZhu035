@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="300" viewBox="0 0 720 300" fill="none">
+  <title>Decentralized inference concept</title>
+  <desc>Three local processing nodes connected by message exchange. Conceptual illustration, not a performance result or an exact system architecture.</desc>
+  <defs>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="1" cy="1" r="1" fill="#315c52" opacity=".12"/>
+    </pattern>
+  </defs>
+  <rect width="720" height="300" rx="12" fill="#e6eee8"/>
+  <rect width="720" height="300" fill="url(#grid)"/>
+  <g stroke="#315c52" stroke-width="2">
+    <path d="M220 150H300M420 150H500" stroke-dasharray="5 6"/>
+    <path d="m278 144 8 6-8 6m164-12-8 6 8 6"/>
+    <path d="M160 91V64m200 27V64m200 27V64"/>
+    <path d="M145 65q15-18 30 0m170 0q15-18 30 0m170 0q15-18 30 0" opacity=".6"/>
+    <path d="M136 54q24-27 48 0m152 0q24-27 48 0m152 0q24-27 48 0" opacity=".3"/>
+    <rect x="100" y="92" width="120" height="116" rx="16" fill="#faf8f4"/>
+    <rect x="300" y="92" width="120" height="116" rx="16" fill="#315c52"/>
+    <rect x="500" y="92" width="120" height="116" rx="16" fill="#faf8f4"/>
+  </g>
+  <g fill="#a35f3b">
+    <circle cx="144" cy="122" r="4"/><circle cx="160" cy="122" r="4"/><circle cx="176" cy="122" r="4"/>
+    <circle cx="544" cy="122" r="4"/><circle cx="560" cy="122" r="4"/><circle cx="576" cy="122" r="4"/>
+  </g>
+  <g fill="#dce8e2">
+    <circle cx="344" cy="122" r="4"/><circle cx="360" cy="122" r="4"/><circle cx="376" cy="122" r="4"/>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif" text-anchor="middle">
+    <g font-size="18" font-weight="600">
+      <text x="160" y="158" fill="#19211f">Local node</text>
+      <text x="360" y="158" fill="#faf8f4">Local node</text>
+      <text x="560" y="158" fill="#19211f">Local node</text>
+    </g>
+    <g font-size="12">
+      <text x="160" y="183" fill="#68716e">Inference</text>
+      <text x="360" y="183" fill="#dce8e2">Inference</text>
+      <text x="560" y="183" fill="#68716e">Inference</text>
+    </g>
+    <text x="360" y="253" font-size="11" letter-spacing="3" fill="#315c52">MESSAGE EXCHANGE</text>
+    <text x="360" y="279" font-size="10" fill="#68716e">CONCEPT ILLUSTRATION</text>
+  </g>
+</svg>

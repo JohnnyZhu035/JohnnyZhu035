@@ -1,0 +1,11 @@
+/** Initialize the Life photo viewer from rendered gallery cards; returns nothing. */
+!function(){"use strict";var e=document.getElementById("gallery-dialog"),t=Array.from(document.querySelectorAll(".photo-frame")),n=document.getElementById("gallery-image"),l=document.getElementById("gallery-title"),o=document.getElementById("gallery-meta"),r=document.getElementById("gallery-caption"),c=document.getElementById("gallery-counter"),d=document.getElementById("gallery-original"),a=0;
+/** Render a wrapped photo index and its existing caption; returns nothing. */
+function i(e){a=(e+t.length)%t.length;var i=t[a],y=i.closest("figure");n.src=i.href,n.alt=i.querySelector("img").alt,l.textContent=y.querySelector("h3").textContent,o.textContent=y.querySelector(".photo-caption-head span").textContent,r.textContent=y.querySelector("figcaption p").textContent,c.textContent=a+1+" / "+t.length,d.href=i.href}
+/** Open an unmodified gallery link in the modal; preserves new-tab gestures. */function y(n){n.ctrlKey||n.metaKey||n.shiftKey||n.altKey||(n.preventDefault(),i(t.indexOf(n.currentTarget)),e.showModal(),document.documentElement.classList.add("gallery-open"))}
+/** Close the modal on a button click; native dialog restores trigger focus. */for(var u of t)u.addEventListener("click",y);document.getElementById("gallery-close").addEventListener("click",(function(){e.close()}
+/** Restore page scrolling after either the Close button or native Escape. */)),document.getElementById("gallery-previous").addEventListener("click",(
+/** Show the preceding photo on a button click; wraps at the beginning. */
+function(){i(a-1)}
+/** Show the following photo on a button click; wraps at the end. */)),document.getElementById("gallery-next").addEventListener("click",(function(){i(a+1)}
+/** Handle arrow keys in the open dialog; leaves native Escape intact. */)),e.addEventListener("keydown",(function(e){"ArrowLeft"!==e.key&&"ArrowRight"!==e.key||(e.preventDefault(),i(a+("ArrowRight"===e.key?1:-1)))})),e.addEventListener("close",(function(){document.documentElement.classList.remove("gallery-open")}))}();
